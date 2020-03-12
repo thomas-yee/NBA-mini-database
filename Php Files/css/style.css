@@ -2,33 +2,46 @@ section {
     padding: 80px 0;
 }
 
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 /*---------- HEADINGS ---------------*/
+/*Used to modify the header (NBA Mini-database)*/
 h1 {
     font-weight: 300;
     text-transform: uppercase;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing:  1px;
 }
 /*---------- Header -----------------*/
+/*Used to modify the nba logo*/
 .logo {
     height: 100px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
+/*Used to modify the navigation bar*/
 .main-nav {
+    font-size: 130%;
     float: right;
     list-style: none;
     margin-top: 0;
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
 .main-nav li {
-    display: inline-block; /* Become side by side instead of a lsit */
+    display: inline-block; /* Become side by side instead of a list */
     margin-left: 40px;
+}
+
+.team-list {
+    
 }

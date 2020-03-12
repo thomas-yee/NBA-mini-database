@@ -9,8 +9,8 @@
         <header>
             <nav>
                 <div class="row">
-                    <h1>NBA Mini-Database</h1>
                     <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
+                    <h1>NBA Mini-Database</h1>
                     <ul class="main-nav"> <!--ul means unordered list-->
                         <li><a href="a">Teams</a></li>
                         <li><a href="a">Games</a></li>
@@ -21,6 +21,7 @@
             </nav>
         </header>
         <section class = "team-list">
+            <div class = "row">
             Team List:
             <select name="Team">
                 <option value="hawks">Atlanta Hawks</option>
@@ -54,6 +55,7 @@
                 <option value="jazz">Utah Jazz</option>
                 <option value="wizards">Washington Wizards</option>
             </select>
+            </div>
         </section>
     </body>
 </html>
