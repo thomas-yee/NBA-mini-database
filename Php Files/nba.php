@@ -43,12 +43,12 @@
                 <option value="bucks">Milwaukee Bucks</option>
                 <option value="timberwolves">Minnesota Timberwolves</option>
                 <option value="pelicans">New Orleans Pelicans</option>
-                <option value="knicks">New York Knicks/option>
+                <option value="knicks">New York Knicks</option>
                 <option value="thunder">Oklahoma City Thunder</option>
                 <option value="magic">Orlando Magic</option>
                 <option value="76ers">Philadelphia 76ers</option>
                 <option value="suns">Phoenix Suns</option>
-                <option value="blazers">Portland Trail Blazers/option>
+                <option value="blazers">Portland Trail Blazers</option>
                 <option value="kings">Sacramento Kings</option>
                 <option value="spurs">San Antonio Spurs</option>
                 <option value="raptors">Toronto Raptors</option>
