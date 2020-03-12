@@ -55,7 +55,36 @@
                 <option value="jazz">Utah Jazz</option>
                 <option value="wizards">Washington Wizards</option>
             </select>
-            </div>
-        </section>
+        </div>
+    </section>
+    <section class = "display-stats">
+        <div class = "row">
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Team</th>
+                    <th>GP</th>
+                    <th>GS</th>
+                    <th>MIN</th>
+                    <th>FG</th>
+                    <th>FG%</th>
+                    <th>3PT</th>
+                    <th>3PT%</th>
+                    <th>FT</th>
+                    <th>FT%</th>
+                    <th>OR</th>
+                    <th>DR</th>
+                    <th>REB</th>
+                    <th>AST</th>
+                    <th>BLK</th>
+                    <th>STL</th>
+                    <th>PF</th>
+                    <th>TO</th>
+                    <th>PTS</th>
+                </tr>
+            </table>
+        </div>
+    </section>
     </body>
 </html>
