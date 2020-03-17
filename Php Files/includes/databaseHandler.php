@@ -2,9 +2,10 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
+$dbName = "nba";
 
 //Create the connection
-$conn = new mysqli($servername, $username, $password);
+$conn = mysqli_connect($servername, $username, $password, $dbName);
 
 //Check connection
 if ($conn -> connect_error) {
