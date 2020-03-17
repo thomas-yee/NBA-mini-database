@@ -63,6 +63,20 @@
     </section>
     <section class = "display-stats">
         <div class = "row">
+            //TEST DATA PRINT TO WEBSITE
+            <?php
+                $sql = "SELECT * FROM arena;";
+                $result = mysqli_query($conn, $sql);
+                $resultCheck = mysqli_num_rows($result); //Check for a result above 0
+                
+                if ($resultCheck > 0) {
+                    //$row is an array of all the data
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo $row['ArenaName'];
+                    }
+                }
+            ?>
+
             <table>
                 <tr>
                     <th>First Name</th>
