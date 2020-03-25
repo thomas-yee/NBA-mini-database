@@ -27,9 +27,9 @@ Kyrie,Irving,Brooklyn Nets
 DeAndre,Jordan,Brooklyn Nets
 Rodions,Kurucs,Brooklyn Nets
 Caris,LeVert,Brooklyn Nets
-Timothé,Luwawu-Cabarrot,Brooklyn Nets
+Timothe,Luwawu-Cabarrot,Brooklyn Nets
 Jeremiah,Martin,Brooklyn Nets
-Džanan,Musa,Brooklyn Nets
+Dzanan,Musa,Brooklyn Nets
 Theo,Pinson,Brooklyn Nets
 Taurean,Prince,Brooklyn Nets
 Garrett,Temple,Brooklyn Nets
@@ -86,7 +86,7 @@ Paul,Watson,Toronto Raptors
 Ryan,Arcidiacono,Chicago Bulls
 Wendell,Carter,Chicago Bulls
 Kris,Dunn,Chicago Bulls
-Cristiano,Felício,Chicago Bulls
+Cristiano,Felicio,Chicago Bulls
 Daniel,Gafford,Chicago Bulls
 Shaquille,Harrison,Chicago Bulls
 Chandler,Hutchison,Chicago Bulls
@@ -95,7 +95,7 @@ Zach,LaVine,Chicago Bulls
 Lauri,Markkanen,Chicago Bulls
 Adam,Mokoka,Chicago Bulls
 Otto,Porter,Chicago Bulls
-Tomáš,Satoranský,Chicago Bulls
+Tomas,Satoransky,Chicago Bulls
 Max,Strus,Chicago Bulls
 Denzel,Valentine,Chicago Bulls
 Coby,White,Chicago Bulls
@@ -116,7 +116,7 @@ Collin,Sexton,Cleveland Cavaliers
 Tristan,Thompson,Cleveland Cavaliers
 Dean,Wade,Cleveland Cavaliers
 Dylan,Windler,Cleveland Cavaliers
-Ante,Žižic,Cleveland Cavaliers
+Ante,Zizic,Cleveland Cavaliers
 Jordan,Bone,Detroit Pistons
 Bruce,Brown,Detroit Pistons
 Sekou,Doumbouya,Detroit Pistons
@@ -180,7 +180,7 @@ Treveon,Graham,Atlanta Hawks
 Kevin,Huerter,Atlanta Hawks
 De'Andre,Hunter,Atlanta Hawks
 Damian,Jones,Atlanta Hawks
-Skal,Labissière,Atlanta Hawks
+Skal,Labissiere,Atlanta Hawks
 Cam,Reddish,Atlanta Hawks
 Jeff,Teague,Atlanta Hawks
 Trae,Young,Atlanta Hawks
@@ -190,7 +190,7 @@ Bismack,Biyombo,Charlotte Hornets
 Joe,Chealey,Charlotte Hornets
 Miles,Bridges,Charlotte Hornets
 Devonte',Graham,Charlotte Hornets
-Willy,Hernangómez,Charlotte Hornets
+Willy,Hernangomez,Charlotte Hornets
 Caleb,Martin,Charlotte Hornets
 Cody,Martin,Charlotte Hornets
 Jalen,McDaniels,Charlotte Hornets
@@ -243,7 +243,7 @@ Rui,Hachimura,Washington Wizards
 Ian,Mahinmi,Washington Wizards
 Garrison,Mathews,Washington Wizards
 Shabazz,Napier,Washington Wizards
-Anžejs,Pasecniks,Washington Wizards
+Anzejs,Pasecniks,Washington Wizards
 Gary,Payton,Washington Wizards
 Jerome,Robinson,Washington Wizards
 Admiral,Schofield,Washington Wizards
@@ -312,7 +312,7 @@ Jaxson,Hayes,New Orleans Pelicans
 Jrue,Holiday,New Orleans Pelicans
 Brandon,Ingram,New Orleans Pelicans
 Frank,Jackson,New Orleans Pelicans
-Nicolò,Melli,New Orleans Pelicans
+Nicolo,Melli,New Orleans Pelicans
 Darius,Miller,New Orleans Pelicans
 E'Twaun,Moore,New Orleans Pelicans
 Jahlil,Okafor,New Orleans Pelicans
@@ -330,8 +330,8 @@ Trey,Lyles,San Antonio Spurs
 Chimezie,Metu,San Antonio Spurs
 Patty,Mills,San Antonio Spurs
 Dejounte,Murray,San Antonio Spurs
-Jakob,Pöltl,San Antonio Spurs
-Luka,Šamanic,San Antonio Spurs
+Jakob,Poltl,San Antonio Spurs
+Luka,Samanic,San Antonio Spurs
 Lonnie,Walker,San Antonio Spurs
 Quinndary,Weatherspoon,San Antonio Spurs
 Derrick,White,San Antonio Spurs
@@ -346,7 +346,7 @@ Jerami,Grant,Denver Nuggets
 Gary,Harris,Denver Nuggets
 Nikola,Jokic,Denver Nuggets
 Paul,Millsap,Denver Nuggets
-Monté,Morris,Denver Nuggets
+Monte,Morris,Denver Nuggets
 Jamal,Murray,Denver Nuggets
 Mason,Plumlee,Denver Nuggets
 Michael,Porter,Denver Nuggets
@@ -354,7 +354,7 @@ Noah,Vonleh,Denver Nuggets
 Malik,Beasley,Minnesota Timberwolves
 Jarrett,Culver,Minnesota Timberwolves
 Jacob,Evans,Minnesota Timberwolves
-Juan,Hernangómez,Minnesota Timberwolves
+Juan,Hernangomez,Minnesota Timberwolves
 James,Johnson,Minnesota Timberwolves
 Jake,Layman,Minnesota Timberwolves
 Kelan,Martin,Minnesota Timberwolves
@@ -380,9 +380,9 @@ Mike,Muscala,Oklahoma City Thunder
 Abdel,Nader,Oklahoma City Thunder
 Nerlens,Noel,Oklahoma City Thunder
 Chris,Paul,Oklahoma City Thunder
-André,Roberson,Oklahoma City Thunder
+Andre,Roberson,Oklahoma City Thunder
 Isaiah,Roby,Oklahoma City Thunder
-Dennis,Schröder,Oklahoma City Thunder
+Dennis,Schroder,Oklahoma City Thunder
 Carmelo,Anthony,Portland Trail Blazers
 Trevor,Ariza,Portland Trail Blazers
 Moses,Brown,Portland Trail Blazers
@@ -475,11 +475,11 @@ Ty,Jerome,Phoenix Suns
 Cameron,Johnson,Phoenix Suns
 Frank,Kaminsky,Phoenix Suns
 Jalen,Lecque,Phoenix Suns
-Élie,Okobo,Phoenix Suns
+Elie,Okobo,Phoenix Suns
 Kelly,Oubre,Phoenix Suns
 Tariq,Owens,Phoenix Suns
 Ricky,Rubio,Phoenix Suns
-Dario,Šaric,Phoenix Suns
+Dario,Saric,Phoenix Suns
 Marvin,Bagley,Sacramento Kings
 Harrison,Barnes,Sacramento Kings
 Kent,Bazemore,Sacramento Kings
