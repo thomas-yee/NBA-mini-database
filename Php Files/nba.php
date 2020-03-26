@@ -7,6 +7,21 @@
     <head>
         <!--Link css file -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            //JQuery code
+            //This means this jQuery code will run after the document loads 
+            $(document).ready(function() {
+                var tableCount = 2;
+                $("button").click(function() {
+                    tableCount = tableCount + 2;
+                    $("#row").load("includes/load-data.php", {
+                        tableNewCount: tableCount
+                    });
+                })
+            });
+        </script> 
         <title>NBA Mini-Database</title>
     </head>
     <body>
@@ -26,7 +41,7 @@
         </header>
         <section class = "team-list">
             <div class = "row">
-            Team List:
+            Team List:              
             <select name="Team">
                 <option value="hawks">Atlanta Hawks</option>
                 <option value="celtics">Boston Celtics</option>
@@ -60,21 +75,30 @@
                 <option value="wizards">Washington Wizards</option>
             </select>
         </div>
+        <button>Update</button>
     </section>
     <section class = "display-stats">
-        <div class = "row">
+        <div id = "row">
             <table>
                 <tr>
                     <th>Arena Name</th>
                     <th>City, State</th>
                     <th>Capacity</th>
                 </tr>
+                <!-- <tr>
+                    <th>Team Name</th>
+                    <th>Conference</th>
+                    <th>Divison</th>
+                    <th>Year Founded</th>
+                    <th>Year Joined</th>
+                </tr> -->
                 <!-- Print arena data to a table -->
+            
                 <?php
-                    $sql = "SELECT * FROM arena;";
+                    $sql = "SELECT * FROM arena LIMIT 2;";
                     $result = mysqli_query($conn, $sql);
                     $resultCheck = mysqli_num_rows($result); //Check for a result above 0
-                    
+
                     if ($resultCheck > 0) {
                         //$row is an array of all the data
                         while ($row = mysqli_fetch_assoc($result)) {
