@@ -1,6 +1,7 @@
 <?php
+//PERFORMS SELECT BASED ON PRESSING UPDATE
     include 'databaseHandler.php'; //Can use to grab variable $conn
-
+    //Used to grab the variable from jQuery
     $tableNewCount = $_POST['tableNewCount'];
 
     $sql = "SELECT * FROM arena LIMIT $tableNewCount;";

@@ -1,6 +1,5 @@
-
-
 <?php
+//USED TO CONNECT TO DATABASE
 $servername = "localhost";
 $username = "root";
 $password = "";
