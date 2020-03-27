@@ -22,14 +22,15 @@
                     });
                 })
             });
-
-            // $(document).ready(function() {
-            //     $("Team").change(function() {
-            //         $("#row").load("includes/drop-down.php", {
-            //             var team_id = $(this).find('')
-            //         })
-            //     })
-            // })
+            
+            //Used when user selects a team from the drop down menu
+            $(document).ready(function() {
+                $("Team").change(function() {
+                    $("#row").load("includes/drop-down.php", {
+                        teamName: $_POST['Team']
+                    })
+                })
+            })
         </script> 
         <title>NBA Mini-Database</title>
     </head>
@@ -51,10 +52,11 @@
         <section class = "team-list">
             <div class = "row">
             Team List:              
-            <select id ="Team">
+            <select name ="Team">
                 <?php
+                    echo "<option value=''>Select a Team</option>";
                     //Used to display teams in the drop down menu alphabetically
-                     $sql = "SELECT * FROM team ORDER BY TeamName;";
+                     $sql = "SELECT TeamName FROM team ORDER BY TeamName;";
                      $result = mysqli_query($conn, $sql);
                      $resultCheck = mysqli_num_rows($result); //Check for a result above 0
  
