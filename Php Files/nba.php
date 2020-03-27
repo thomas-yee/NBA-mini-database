@@ -53,6 +53,7 @@
             Team List:              
             <select id ="Team">
                 <?php
+                    //Used to display teams in the drop down menu alphabetically
                      $sql = "SELECT * FROM team ORDER BY TeamName;";
                      $result = mysqli_query($conn, $sql);
                      $resultCheck = mysqli_num_rows($result); //Check for a result above 0
