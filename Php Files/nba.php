@@ -45,14 +45,23 @@
     </head>
     <body>
         <header>
-            <div class="row">
-                <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
-                <h1>NBA Mini-Database</h1>
-            </div>
+            <nav>
+                <div class="row">
+                    <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
+                    <h1>NBA Mini-Database</h1>
+                    <ul class="main-nav"> <!--ul means unordered list-->
+                        <li><a href="nba.php">Home</a></li> <!--Links to home page-->
+                        <li><a href="team.php">Teams</a></li>
+                        <li><a href="a">Games</a></li>
+                        <li><a href="a">Players</a></li>
+                        <li><a href="a">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <section class = "choose-data">
             <div class = "row">
-                <form action = "">
+                <form action = "" method = "post">
                     <p>Please make a selection:</p>
                     <input type = "radio" id = "info" name = "playerStats" value = "info", checked> <!--Name = group name of all the radio buttons, 
                     value = name of each individual button" -->
