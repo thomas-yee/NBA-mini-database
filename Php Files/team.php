@@ -19,7 +19,7 @@
                     <h1>NBA Mini-Database</h1>
                     <ul class="main-nav"> <!--ul means unordered list-->
                         <li><a href="nba.php">Home</a></li> <!--Links to home page-->
-                        <li><a href="a">Teams</a></li>
+                        <li><a href="team.php">Teams</a></li>
                         <li><a href="a">Games</a></li>
                         <li><a href="a">Players</a></li>
                         <li><a href="a">Contact us</a></li>
