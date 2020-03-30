@@ -45,18 +45,10 @@
     </head>
     <body>
         <header>
-            <nav>
-                <div class="row">
-                    <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
-                    <h1>NBA Mini-Database</h1>
-                    <ul class="main-nav"> <!--ul means unordered list-->
-                        <li><a href="a">Teams</a></li>
-                        <li><a href="a">Games</a></li>
-                        <li><a href="a">Players</a></li>
-                        <li><a href="a">Contact us</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="row">
+                <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
+                <h1>NBA Mini-Database</h1>
+            </div>
         </header>
         <section class = "team-list">
             <div class = "row">
@@ -86,7 +78,7 @@
     <section class = "display-stats">
         <div id = "row">
             <table>
-                
+
             </table>
         </div>
     </section>

@@ -14,7 +14,7 @@
         echo "<th>Team Name</th>";
         echo "<th>Season</th>";
         echo "<th>Rank</th>";
-        echo "<th>GamesPlayed</th>";
+        echo "<th>Games Played</th>";
         echo "<th>FG%</th>";
         echo "<th>3P%</th>";
         echo "<th>FT%</th>";
