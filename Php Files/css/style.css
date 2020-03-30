@@ -28,6 +28,21 @@ h1 {
     margin-top: 0px;
 }
 
+/*Used to modify the navigation bar*/
+.main-nav {
+    font-size: 130%;
+    float: right;
+    list-style: none;
+    margin-top: 0;
+    margin-right: 100px;
+}
+
+.main-nav li {
+    display: inline-block; /* Become side by side instead of a list */
+    margin-left: 40px;
+}
+
+
 /*Used to modify the table*/
 .display-stats table, th, td{
     border: 1px solid black;
