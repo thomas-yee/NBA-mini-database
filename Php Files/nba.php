@@ -50,7 +50,17 @@
                 <h1>NBA Mini-Database</h1>
             </div>
         </header>
-        <section class = "team-list">
+        <section class = "choose-data">
+            <div class = "row">
+                <form action = "">
+                    <p>Please make a selection:</p>
+                    <input type = "radio" id = "info" name = "playerStats" value = "info", checked> <!--Name = group name of all the radio buttons, 
+                    value = name of each individual button" -->
+                    <label for = "info">Personal Information</label>
+                    <input type = "radio" id = "playerStats" name = "playerStats" value = "playerStats">
+                    <label for = "info">Player Stats</label>
+                </form>
+            </div>
             <div class = "row">
             Team List:              
             <select name ="Team" id="Team">
@@ -72,7 +82,7 @@
                      $conn-> close();
                 ?>
             </select>
-        </div>
+            </div>
         <button>Update</button>
     </section>
     <section class = "display-stats">
