@@ -53,7 +53,7 @@ h1 {
 /*---------- Table -----------------*/
 table {
     border-collapse: collapse;
-    width:1000px;
+    width: auto;
 }
 /*Changes the background color of the column headers*/
 th {
