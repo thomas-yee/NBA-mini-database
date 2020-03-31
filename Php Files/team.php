@@ -35,7 +35,8 @@
                         //If order == DESC is true then use DESC otherwise use ASC
                         //Since order hasnt been set, it will default ASC
                         //After clicked, it will be set to DESC since statement is true
-                        $sort_order = $_GET['order'] == 'DESC' ? 'DESC' : 'ASC';
+                        //isset() used to get rid of error
+                        $sort_order = isset($_GET['order']) && $_GET['order'] == 'DESC' ? 'DESC' : 'ASC';
                         //if sort_order is ASC, it will set asc_or_desc to DESC
                         //After clicked, it will be sent to ASC since statement will be false
                         $asc_or_desc = $sort_order == 'ASC' ? 'DESC' : 'ASC';
@@ -59,7 +60,7 @@
                     <th><a href='team.php?sort=spg&order=<?php echo $asc_or_desc;?>'>SPG</a></th>
                     <th><a href='team.php?sort=bpg&order=<?php echo $asc_or_desc;?>'>BPG</a></th>
                     <th><a href='team.php?sort=pf&order=<?php echo $asc_or_desc;?>'>PF</a></th>
-                    </tr>
+                </tr>
             <?php
 
                 //Original SQL query to show all stats
