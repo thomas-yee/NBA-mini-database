@@ -17,7 +17,7 @@ h1 {
     margin-bottom: 20px;
     font-size: 240%;
     word-spacing: 4px;
-    letter-spacing:  1px;
+    letter-spacing: 1px;
 }
 /*---------- Header -----------------*/
 /*Used to modify the nba logo*/
@@ -43,9 +43,35 @@ h1 {
 }
 
 
-/*Used to modify the table*/
+/* Used to modify the table
 .display-stats table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+} */
+
+/*---------- Table -----------------*/
+/*Changes the background color of the column headers*/
+th {
+	background-color: #54585d;
+	border: 1px solid #54585d;
+}
+/*Changes the color of the header when the mouse hovers over it*/
+th:hover {
+	background-color: #64686e;
+}
+/*Changes the display of the column links*/
+th a {
+	display: block;
+	text-decoration:none;
+	padding: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+} 
+/*Changes the cells of the table */
+td {
+    padding: 10px;
+    color: #636363;
+    border: 1px solid #dddfe1;
 }
