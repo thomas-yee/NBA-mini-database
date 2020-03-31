@@ -51,6 +51,10 @@ h1 {
 } */
 
 /*---------- Table -----------------*/
+table {
+    border-collapse: collapse;
+    width:1000px;
+}
 /*Changes the background color of the column headers*/
 th {
 	background-color: #54585d;
