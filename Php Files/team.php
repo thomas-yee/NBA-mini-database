@@ -31,77 +31,88 @@
             <table>
             <!--Column headers-->
                 <tr>
+                    <?php
+                        //If order == DESC is true then use DESC otherwise use ASC
+                        //Since order hasnt been set, it will default ASC
+                        //After clicked, it will be set to DESC since statement is true
+                        $sort_order = $_GET['order'] == 'DESC' ? 'DESC' : 'ASC';
+                        //if sort_order is ASC, it will set asc_or_desc to DESC
+                        //After clicked, it will be sent to ASC since statement will be false
+                        $asc_or_desc = $sort_order == 'ASC' ? 'DESC' : 'ASC';
+                    ?>
                     <!-- Column Links, when clicked, calls the same page but changes the
-                    variable ?sort based on the column the user wants to sort by -->
-                    <th><a href='team.php?sort=teamName'>Team Name</a></th>
-                    <th><a href='team.php?sort=season'>Season</a></th>
-                    <th><a href='team.php?sort=rank'>Rank</a></th>
-                    <th><a href='team.php?sort=gp'>Games Played</a></th>
-                    <th><a href='team.php?sort=fg%'>FG%</a></th>
-                    <th><a href='team.php?sort=3p%'>3P%</a></th>
-                    <th><a href='team.php?sort=ft%'>FT%</a></th>
-                    <th><a href='team.php?sort=oreb'>OREB</a></th>
-                    <th><a href='team.php?sort=dreb'>DREB</a></th>
-                    <th><a href='team.php?sort=ppg'>PPG</a></th>
-                    <th><a href='team.php?sort=rpg'>RPG</a></th>
-                    <th><a href='team.php?sort=apg'>APG</a></th>
-                    <th><a href='team.php?sort=to'>TO</a></th>
-                    <th><a href='team.php?sort=spg'>SPG</a></th>
-                    <th><a href='team.php?sort=bpg'>BPG</a></th>
-                    <th><a href='team.php?sort=pf'>PF</a></th>
+                    variable ?sort based on the column the user wants to sort by 
+                    order variable set based on whether the column is sorted -->
+                    <th><a href='team.php?sort=teamName&order=<?php echo $asc_or_desc;?>'>Team Name</a></th>
+                    <th><a href='team.php?sort=season&order=<?php echo $asc_or_desc;?>'>Season</a></th>
+                    <th><a href='team.php?sort=rank&order=<?php echo $asc_or_desc;?>'>Rank</a></th>
+                    <th><a href='team.php?sort=gp&order=<?php echo $asc_or_desc;?>'>Games Played</a></th>
+                    <th><a href='team.php?sort=fg%&order=<?php echo $asc_or_desc;?>'>FG%</a></th>
+                    <th><a href='team.php?sort=3p%&order=<?php echo $asc_or_desc;?>'>3P%</a></th>
+                    <th><a href='team.php?sort=ft%&order=<?php echo $asc_or_desc;?>'>FT%</a></th>
+                    <th><a href='team.php?sort=oreb&order=<?php echo $asc_or_desc;?>'>OREB</a></th>
+                    <th><a href='team.php?sort=dreb&order=<?php echo $asc_or_desc;?>'>DREB</a></th>
+                    <th><a href='team.php?sort=ppg&order=<?php echo $asc_or_desc;?>'>PPG</a></th>
+                    <th><a href='team.php?sort=rpg&order=<?php echo $asc_or_desc;?>'>RPG</a></th>
+                    <th><a href='team.php?sort=apg&order=<?php echo $asc_or_desc;?>'>APG</a></th>
+                    <th><a href='team.php?sort=to&order=<?php echo $asc_or_desc;?>'>TO</a></th>
+                    <th><a href='team.php?sort=spg&order=<?php echo $asc_or_desc;?>'>SPG</a></th>
+                    <th><a href='team.php?sort=bpg&order=<?php echo $asc_or_desc;?>'>BPG</a></th>
+                    <th><a href='team.php?sort=pf&order=<?php echo $asc_or_desc;?>'>PF</a></th>
                     </tr>
             <?php
+
                 //Original SQL query to show all stats
                 $sql = "SELECT * FROM team_stats\n";
                 //If a column is clicked, sort will be added to the query
-                if (isset($_GET['sort']) == 'teamName') {
+                if (isset($_GET['sort'])) {
                     if ($_GET['sort'] == 'teamName') {
-                        $sql .= " ORDER BY TeamName";
+                        $sql .= " ORDER BY TeamName $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'season') {
-                        $sql .= " ORDER BY Season";
+                        $sql .= " ORDER BY Season $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'rank') {
-                        $sql .= " ORDER BY Rank";
+                        $sql .= " ORDER BY Rank $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'gp') {
-                        $sql .= " ORDER BY GamesPlayed";
+                        $sql .= " ORDER BY GamesPlayed $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'fg%') {
-                        $sql .= " ORDER BY `FG%` DESC";
+                        $sql .= " ORDER BY `FG%` $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == '3p%') {
-                        $sql .= " ORDER BY `3P%` DESC";
+                        $sql .= " ORDER BY `3P%` $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'ft%') {
-                        $sql .= " ORDER BY `FT%` DESC";
+                        $sql .= " ORDER BY `FT%` $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'oreb') {
-                        $sql .= " ORDER BY OREB";
+                        $sql .= " ORDER BY OREB $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'dreb') {
-                        $sql .= " ORDER BY DREB";
+                        $sql .= " ORDER BY DREB $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'ppg') {
-                        $sql .= " ORDER BY PPG";
+                        $sql .= " ORDER BY PPG $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'rpg') {
-                        $sql .= " ORDER BY RPG";
+                        $sql .= " ORDER BY RPG $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'apg') {
-                        $sql .= " ORDER BY APG";
+                        $sql .= " ORDER BY APG $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'to') {
-                        $sql .= " ORDER BY `TO` DESC";
+                        $sql .= " ORDER BY `TO` $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'spg') {
-                        $sql .= " ORDER BY SPG";
+                        $sql .= " ORDER BY SPG $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'bpg') {
-                        $sql .= " ORDER BY BPG";
+                        $sql .= " ORDER BY BPG $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'pf') {
-                        $sql .= " ORDER BY PF";
+                        $sql .= " ORDER BY PF $asc_or_desc";
                     }
                 }
             
