@@ -62,7 +62,6 @@
                     <th><a href='team.php?sort=pf&order=<?php echo $asc_or_desc;?>'>PF</a></th>
                 </tr>
             <?php
-
                 //Original SQL query to show all stats
                 $sql = "SELECT * FROM team_stats\n";
                 //If a column is clicked, sort will be added to the query
