@@ -71,7 +71,7 @@
     if ($resultCheck > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
             echo "<tr><td>". $row['Season'].
-            "</td><td>". $row['GameDate']. 
+            "</td><td>". $row['GameDate'].
             "</td><td>". $row['GameStartET']. 
             "</td><td>". $row['VisitorTeamName'].
             "</td><td>". $row['VisitorPoints'].

@@ -33,7 +33,7 @@
                         url:"includes/drop-down.php", //the php file where it occurs
                         method:"POST", //sends POST request
                         data:{teamName:teamName}, //data to submit 
-                        success:function(data) {
+                        success:function(data) { // What to do in the case of success
                             //#row - where the data will be shown
                             $('#row').html(data);
                         }

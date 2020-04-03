@@ -23,10 +23,10 @@
                     //sets local storage to the selection made
                     localStorage.setItem("Arena", $(this).val())
                     $.ajax({
-                        url:"includes/drop-down-stadium.php", //the php file where it occurs
+                        url:"includes/drop-down-stadium.php", //the file where you want to reach with the Ajax call
                         method:"POST", //sends POST request
                         data:{stadiumName:stadiumName}, //data to submit 
-                        success:function(data) {
+                        success:function(data) { // What to do in the case of success
                             //#row - where the data will be shown
                             $('#row').html(data);
                         }
