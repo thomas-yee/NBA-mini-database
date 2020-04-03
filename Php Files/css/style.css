@@ -1,12 +1,3 @@
-section {
-    margin-top: 80px;
-}
-
-.row {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 
 /*---------- HEADINGS ---------------*/
 /*Used to modify the header (NBA Mini-database)*/
@@ -20,6 +11,11 @@ h1 {
     letter-spacing: 1px;
 }
 /*---------- Header -----------------*/
+header {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
 /*Used to modify the nba logo*/
 .logo {
     height: 100px;
@@ -41,14 +37,23 @@ h1 {
     display: inline-block; /* Become side by side instead of a list */
     margin-left: 40px;
 }
+/*---------- Section ---------------*/
+section {
+    margin-top: 20px;
+}
+section.choose-data{
+    margin-top: 80px;
+}
 
+section.display-games-stadium {
+    margin-top: 80px;
+}
 
-/* Used to modify the table
-.display-stats table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-} */
+/*---------- Row -------------------*/
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /*---------- Table -----------------*/
 table {
@@ -58,7 +63,7 @@ table {
 /*Changes the background color of the column headers*/
 th {
 	background-color: #54585d;
-	border: 1px solid #54585d;
+    border: 1px solid #54585d;
 }
 /*Changes the color of the header when the mouse hovers over it*/
 th:hover {
