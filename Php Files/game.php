@@ -115,7 +115,9 @@
                 </tr>
             <?php
                 //Original SQL query to show all stats
-                $sql = "SELECT * FROM `date` RIGHT JOIN `game` ON `date`.`Id` = `game`.`DateId` WHERE ArenaName LIKE '$stadiumName%'\n";
+                $sql = "SELECT `date`.`Season`, `game`.`GameDate`, `game`.`GameStartET`, `game`.`VisitorTeamName`, `game`.`VisitorPoints`,
+                `game`.`HomeTeamName`, `game`.`HomePoints`, `game`.`Attendance`, `game`.`ArenaName`, `game`.`VisitorPoints`
+                FROM `date` RIGHT JOIN `game` ON `date`.`Id` = `game`.`DateId` WHERE ArenaName LIKE '$stadiumName%'\n";
                 //If a column is clicked, sort will be added to the query
                 if (isset($_GET['sort'])) {
                     if ($_GET['sort'] == 'season') {
