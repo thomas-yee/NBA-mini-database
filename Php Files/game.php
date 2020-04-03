@@ -114,10 +114,10 @@
                     <th><a href='game.php?sort=arenaName&stadiumName=<?php echo $stadiumName;?>&order=<?php echo $asc_or_desc;?>'>Arena Name</a></th>
                 </tr>
             <?php
-                //Original SQL query to show all stats
-                $sql = "SELECT `date`.`Season`, `game`.`GameDate`, `game`.`GameStartET`, `game`.`VisitorTeamName`, `game`.`VisitorPoints`,
-                `game`.`HomeTeamName`, `game`.`HomePoints`, `game`.`Attendance`, `game`.`ArenaName`, `game`.`VisitorPoints`
-                FROM `date` RIGHT JOIN `game` ON `date`.`Id` = `game`.`DateId` WHERE ArenaName LIKE '$stadiumName%'\n";
+                // //Original SQL query to show all stats
+                $sql = "SELECT * FROM `date` AS `t1` LEFT JOIN `game` AS `t2` ON `t2`.`DateId` = `t1`.`Id` WHERE `t2`.`ArenaName` LIKE '$stadiumName%'\n"
+                . "UNION ALL\n" // "." means to add this line
+                . "SELECT * FROM `date` AS `t1` RIGHT JOIN `game` AS `t2` ON `t2`.`DateId` = `t1`.`Id` WHERE `t2`.`ArenaName` LIKE '$stadiumName%' AND `t1`.`Id` is null\n";
                 //If a column is clicked, sort will be added to the query
                 if (isset($_GET['sort'])) {
                     if ($_GET['sort'] == 'season') {
