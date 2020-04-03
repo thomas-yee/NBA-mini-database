@@ -39,15 +39,16 @@
     <body>
         <header>
             <nav>
-                <div class="row">
-                    <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
-                    <h1>NBA Mini-Database</h1>
+            <div class="row">
                     <ul class="main-nav"> <!--ul means unordered list-->
                         <li><a href="nba.php">Home</a></li> <!--Links to home page-->
-                        <li><a href="team.php">Teams</a></li> <!--Links to teams page-->
-                        <li><a href="game.php">Games</a></li> <!--Links to games page-->
-                        <li><a href="player.php">Players</a></li> <!--Links to players page-->
+                        <li><a href="team.php">Teams</a></li>
+                        <li><a href="game.php">Games</a></li>
+                        <li><a href="player.php">Player Stats</a></li> <!--Links to players page-->
+                        <li><a href="playerInformation.php">Player Information</a></li> <!--Links to players information page -->
                     </ul>
+                    <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
+                    <h1>NBA Mini-Database</h1>
                 </div>
             </nav>
         </header>

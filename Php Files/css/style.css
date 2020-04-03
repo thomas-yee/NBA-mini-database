@@ -1,4 +1,8 @@
-
+body {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
 /*---------- HEADINGS ---------------*/
 /*Used to modify the header (NBA Mini-database)*/
 h1 {
@@ -11,10 +15,6 @@ h1 {
     letter-spacing: 1px;
 }
 /*---------- Header -----------------*/
-header {
-    margin-top: 0px;
-    margin-bottom: 40px;
-}
 
 /*Used to modify the nba logo*/
 .logo {
@@ -23,30 +23,58 @@ header {
     float: left;
     margin-top: 0px;
 }
-
 /*Used to modify the navigation bar*/
 .main-nav {
+    background-color: rgb(43, 40, 40);
+    overflow: hidden;
     font-size: 130%;
-    float: right;
     list-style: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed';
     margin-top: 0;
-    margin-right: 100px;
+}
+/*Style the links in the navigation bar */
+.main-nav a{
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+/* When the user hovers over a link */
+.main-nav a:hover {
+    background-color: rgba(41, 32, 32, 0.068);
+    color:rgb(94, 91, 91);
 }
 
 .main-nav li {
     display: inline-block; /* Become side by side instead of a list */
-    margin-left: 40px;
 }
 /*---------- Section ---------------*/
-section {
-    margin-top: 20px;
-}
-section.choose-data{
+section{
     margin-top: 80px;
 }
 
-section.display-games-stadium {
-    margin-top: 80px;
+/*-- Player Information section --*/
+section.choose-data li{
+    display: inline-block; /*Becomes side by side */
+    font-size: 110%;
+    margin-right: 20px;
+}
+
+section.choose-data a {
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 4px;
+}
+
+/* When the user hovers over a link */
+section.choose-data a:hover {
+    background-color: rgba(41, 32, 32, 0.068);
+    color:rgb(94, 91, 91);
 }
 
 /*---------- Row -------------------*/
@@ -81,6 +109,6 @@ th a {
 /*Changes the cells of the table */
 td {
     padding: 10px;
-    color: #636363;
+    color: #f2f2f2;
     border: 1px solid #dddfe1;
 }
