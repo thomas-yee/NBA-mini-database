@@ -54,6 +54,8 @@
                         <li><a href="player.php">Player Stats</a></li> <!--Links to players page-->
                         <li><a href="playerInformation.php">Player Information</a></li> <!--Links to players information page -->
                     </ul>
+                </div>
+                <div class = "header-row">
                     <img src="resources/nba-logo-png-transparent.png" alt="Nba Logo" class="logo">
                     <h1>NBA Mini-Database</h1>
                 </div>

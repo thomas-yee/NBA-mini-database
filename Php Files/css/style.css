@@ -52,11 +52,11 @@ h1 {
     display: inline-block; /* Become side by side instead of a list */
 }
 /*---------- Section ---------------*/
-section{
-    margin-top: 80px;
-}
 
 /*-- Player Information section --*/
+section.display-games-stadium {
+    margin-bottom: 20px;
+}
 section.choose-data li{
     display: inline-block; /*Becomes side by side */
     font-size: 110%;
@@ -81,6 +81,9 @@ section.choose-data a:hover {
 .row {
     max-width: 1440px;
     margin: 0 auto;
+}
+.header-row {
+    margin-bottom: 80px;
 }
 
 /*---------- Table -----------------*/
