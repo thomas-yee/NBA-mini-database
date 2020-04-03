@@ -8,39 +8,7 @@
         <!--Link css file -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script>
-            //JQuery code
-            //This means this jQuery code will run after the document loads
-            //Used to update the list by 2 each time 
-            $(document).ready(function() {
-                var tableCount = 0; //initial variable
-                $("button").click(function() {
-                    tableCount = tableCount + 2;
-                    $("#row").load("includes/load-data.php", { //row is where the data will be shown, load is the php file to do the select
-                        tableNewCount: tableCount //php file will grab the tableNewCount argument
-                    });
-                })
-            });
-            
-            //Used when user selects a team from the drop down menu
-            $(document).ready(function() {
-                //notification of when team is selected
-                //teamName holds the name when it is selected
-                $("select").change(function() {
-                    var teamName = $(this).val();
-                    $.ajax({
-                        url:"includes/drop-down.php", //the php file where it occurs
-                        method:"POST", //sends POST request
-                        data:{teamName:teamName}, //data to submit 
-                        success:function(data) { // What to do in the case of success
-                            //#row - where the data will be shown
-                            $('#row').html(data);
-                        }
-                    })
-                })
-            });
-        </script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
         <title>NBA Mini-Database</title>
     </head>
     <body>
@@ -89,40 +57,102 @@
                 <li><a href="playerInformation.php?letter=X">X</a></li>
                 <li><a href="playerInformation.php?letter=Y">Y</a></li>
                 <li><a href="playerInformation.php?letter=Z">Z</a></li>
-
-
-                
             </div>
             <div class = "row">
-            Team List:              
-            <select name ="Team" id="Team">
+        </section>
+        <section class = "display-stats">
+            <div id = "row">
+                <table>
+                <tr>
                 <?php
-                    //Displays Select a Team in the drop down menu
-                    echo "<option value=''>Select a Team</option>";
-                    //Used to display teams in the drop down menu alphabetically
-                     $sql = "SELECT TeamName FROM team ORDER BY TeamName;";
-                     $result = mysqli_query($conn, $sql);
-                     $resultCheck = mysqli_num_rows($result); //Check for a result above 0
- 
-                     if ($resultCheck > 0) {
-                         //$row is an array of all the data
-                         while ($row = mysqli_fetch_assoc($result)) {
-                             //Adds the teams to the drop down menu
-                             echo "<option value=".$row['TeamName'].">".$row['TeamName']."</option>";
-                         }
-                     }
-                     $conn-> close();
+                    //If order == DESC is true then use DESC otherwise use ASC
+                    //Since order hasnt been set, it will default ASC
+                    //After clicked, it will be set to DESC since statement is true
+                    //isset() used to get rid of error
+                    $sort_order = isset($_GET['order']) && $_GET['order'] == 'DESC' ? 'DESC' : 'ASC';
+                    //if sort_order is ASC, it will set asc_or_desc to DESC
+                    //After clicked, it will be sent to ASC since statement will be false
+                    $asc_or_desc = $sort_order == 'ASC' ? 'DESC' : 'ASC';
+                    //Get the letter when column is clicked from list
+                    if (isset($_GET['letter'])) {
+                        $letter = $_GET['letter'];
+                    }
+                    else {
+                        //When page is initialized, letter will be blank so all the players will be listed
+                        $letter = "";
+                    }
                 ?>
-            </select>
-            </div>
-        <button>Update</button>
-    </section>
-    <section class = "display-stats">
-        <div id = "row">
-            <table>
+                    <!--Column Links, when clicked, calls the same page but changes the
+                    variable ?sort based on the column the user wants to sort by 
+                    order variable set based on whether the column is sorted -->
+                    <th><a href='playerInformation.php?sort=lastName&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Last Name</a></th>
+                    <th><a href='playerInformation.php?sort=firstName&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>First Name</a></th>
+                    <th><a href='playerInformation.php?sort=team&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Team</a></th>
+                    <th><a href='playerInformation.php?sort=position&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Position</a></th>
+                    <th><a href='playerInformation.php?sort=jerseyNo&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Jersey Number</a></th>
+                    <th><a href='playerInformation.php?sort=height&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Height</a></th>
+                    <th><a href='playerInformation.php?sort=weight&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Weight</a></th>
+                    <th><a href='playerInformation.php?sort=birthDate&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>Birth Date</a></th>
+                    <th><a href='playerInformation.php?sort=college&letter=<?php echo $letter;?>&order=<?php echo $asc_or_desc;?>'>College</a></th>
+                </tr>
+                <?php
+                //Original SQL query to show all stats
+                $sql = "SELECT * FROM `member` AS `t1` RIGHT JOIN `player` AS `t2` ON `t2`.`LastName` = `t1`.`LastName` AND `t2`.`FirstName` = `t1`.`FirstName` WHERE `t2`.`LastName` LIKE '$letter%'\n";
+                //If a column is clicked, sort will be added to the query
+                if (isset($_GET['sort'])) {
+                    if ($_GET['sort'] == 'lastName') {
+                        $sql .= " ORDER BY LastName $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'firstName') {
+                        $sql .= " ORDER BY FirstName $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'team') {
+                        $sql .= " ORDER BY TeamName $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'position') {
+                        $sql .= " ORDER BY Position $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'jerseyNo') {
+                        $sql .= " ORDER BY JerseyNo $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'height') {
+                        $sql .= " ORDER BY Height $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'weight') {
+                        $sql .= " ORDER BY Weight $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'BirthDate') {
+                        $sql .= " ORDER BY birthDate $asc_or_desc";
+                    }
+                    elseif ($_GET['sort'] == 'college') {
+                        $sql .= " ORDER BY College $asc_or_desc";
+                    }
+                    
+                }
+                $result = mysqli_query($conn, $sql);
+                $resultCheck = mysqli_num_rows($result); //Check for a result above 0
 
-            </table>
-        </div>
-    </section>
+                if ($resultCheck > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<tr><td>". $row['LastName'].
+                        "</td><td>". $row['FirstName'].
+                        "</td><td>". $row['TeamName']. 
+                        "</td><td>". $row['Position'].
+                        "</td><td>". $row['JerseyNo'].
+                        "</td><td>". $row['Height'].
+                        "</td><td>". $row['Weight'].
+                        "</td><td>". $row['BirthDate'].
+                        "</td><td>". $row['College'].
+                        "</td></tr>";
+                    }
+                }
+                else {
+                    echo "ERROR";
+                }
+                $conn-> close();
+                ?>
+                </table>
+            </div>
+        </section>
     </body>
 </html>
