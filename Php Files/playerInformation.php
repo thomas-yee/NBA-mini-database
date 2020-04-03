@@ -101,10 +101,10 @@
                 //If a column is clicked, sort will be added to the query
                 if (isset($_GET['sort'])) {
                     if ($_GET['sort'] == 'lastName') {
-                        $sql .= " ORDER BY LastName $asc_or_desc";
+                        $sql .= " ORDER BY t1.LastName $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'firstName') {
-                        $sql .= " ORDER BY FirstName $asc_or_desc";
+                        $sql .= " ORDER BY t1.FirstName $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'team') {
                         $sql .= " ORDER BY TeamName $asc_or_desc";
@@ -121,8 +121,8 @@
                     elseif ($_GET['sort'] == 'weight') {
                         $sql .= " ORDER BY Weight $asc_or_desc";
                     }
-                    elseif ($_GET['sort'] == 'BirthDate') {
-                        $sql .= " ORDER BY birthDate $asc_or_desc";
+                    elseif ($_GET['sort'] == 'birthDate') {
+                        $sql .= " ORDER BY BirthDate $asc_or_desc";
                     }
                     elseif ($_GET['sort'] == 'college') {
                         $sql .= " ORDER BY College $asc_or_desc";
