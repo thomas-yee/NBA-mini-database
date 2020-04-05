@@ -34,19 +34,21 @@
     </header>
 
     <p>
-      <b>Example of an INNER JOIN ON Database Query</b><br><br>
-      Retrieve players from a specified team and having a specified height.<br>
-      If field is left blank, all players will be selected.<br>
+      <b>Example of a UNION ALL Database Query</b><br><br>
+      Find all players with FG% within selected range or 3P% within selected range or both.<br>
+      Includes any redundancies.<br>
     </p>
 
-    <section class="row" action="inner_join_on.php">
+    <section class="row" action="union_all.php">
       <form method="post">
-        <label>Team Name: </label>
-        <input type="text" name="teamName" value="<?php echo isset($_POST['teamName']) ? $_POST['teamName'] : '' ?>" />
-         (Partial string is accepted.)<br>
-        <label>Height: </label>
-        <input type="text" name="height" value="<?php echo isset($_POST['height']) ? $_POST['height'] : '' ?>" />
-         (Partial string is accepted. format e.g.: 6 ft 4 in,  7 ft, etc.)<br><br>
+        <label>FG% between: </label>
+        <input type="text" name="fgmin" size = "3" maxlength="3" value="<?php echo isset($_POST['fgmin']) ? $_POST['fgmin'] : '' ?>" />
+          <label> and </label>
+        <input type="text" name="fgmax" size = "3" maxlength="3" value="<?php echo isset($_POST['fgmax']) ? $_POST['fgmax'] : '' ?>" /><br>
+        <label>3P% between: </label>
+        <input type="text" name="p3min" size = "3" maxlength="3" value="<?php echo isset($_POST['p3min']) ? $_POST['p3min'] : '' ?>" />
+        <label> and </label>
+        <input type="text" name="p3max" size = "3" maxlength="3" value="<?php echo isset($_POST['p3max']) ? $_POST['p3max'] : '' ?>" /><br><br>
         <input type="submit"><br><br>
       </form>
     </section>
@@ -56,14 +58,22 @@
         <table>
           <!-- add column headers -->
           <?php
-            if (isset($_POST['teamName']) && isset($_POST['teamName'])) {
-              echo "<tr> <th>First Name</th> <th>Last Name</th> <th>Team Name</th> <th>Height</th> </tr>";
-              $team = $_POST['teamName'];
-              $height = $_POST['height'];
+            if (isset($_POST['fgmin']) && isset($_POST['p3min'])) {
+              echo "<tr> <th>First Name</th> <th>Last Name</th> <th>Season</th> <th>FG%</th> <th>3P%</th> </tr>";
+              $fgmin = $_POST['fgmin'];
+              $fgmax = $_POST['fgmax'];
+              $p3min = $_POST['p3min'];
+              $p3max = $_POST['p3max'];
               // formulate the query
-              $sql = "SELECT m.FirstName, m.LastName, m.TeamName, p.Height
-                      FROM member AS m INNER JOIN player AS p ON (m.FirstName = p.FirstName AND m.LastName = p.LastName)
-                      WHERE (p.height LIKE '%$height%' AND m.TeamName LIKE '%$team%')";
+
+              $sql = "SELECT FirstName, LastName, Season, `FG%`, `3P%`
+                      FROM player_stats
+                      WHERE CAST(`FG%` as decimal) BETWEEN '$fgmin' AND '$fgmax'
+                      UNION ALL
+                      SELECT FirstName, LastName, Season, `FG%`, `3P%`
+                      FROM player_stats
+                      WHERE CAST(`3P%` as decimal) BETWEEN '$p3min' AND '$p3max'
+                      ORDER BY LastName, Season";
               $result = mysqli_query($conn, $sql);
               if ($result) {
                 // populate the rows in the table
@@ -71,8 +81,9 @@
                   echo "<tr>
                           <td>".$row['FirstName']."</td>
                           <td>".$row['LastName']."</td>
-                          <td>".$row['TeamName']."</td>
-                          <td>".$row['Height']."</td>
+                          <td>".$row['Season']."</td>
+                          <td>".$row['FG%']."</td>
+                          <td>".$row['3P%']."</td>
                         </tr>";
                 }
               }

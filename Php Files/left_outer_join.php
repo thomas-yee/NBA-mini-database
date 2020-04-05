@@ -34,7 +34,7 @@
     </header>
 
     <p>
-      <b>Example of a Left Outer Join Database Query</b><br><br>
+      <b>Example of a LEFT OUTER JOIN Database Query</b><br><br>
       For every day between start and end date where there was an NBA game, shows the visitor and home
       team names for <br> the selected team's game for that day, or shows null (blank)
       if the selected team didn't play on that day.<br>
