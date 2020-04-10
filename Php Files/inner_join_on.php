@@ -62,7 +62,7 @@
               $height = $_POST['height'];
               // formulate the query
               $sql = "SELECT m.FirstName, m.LastName, m.TeamName, p.Height
-                      FROM member AS m INNER JOIN player AS p ON (m.FirstName = p.FirstName AND m.LastName = p.LastName)
+                      FROM member AS m INNER JOIN player AS p ON (m.MemberID = p.MemberID)
                       WHERE (p.height LIKE '%$height%' AND m.TeamName LIKE '%$team%')";
               $result = mysqli_query($conn, $sql);
               if ($result) {
