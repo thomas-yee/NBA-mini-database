@@ -97,7 +97,9 @@
                 </tr>
                 <?php
                 //Original SQL query to show all stats
-                $sql = "SELECT * FROM `member` AS `t1` RIGHT JOIN `player` AS `t2` ON `t2`.`LastName` = `t1`.`LastName` AND `t2`.`FirstName` = `t1`.`FirstName` WHERE `t2`.`LastName` LIKE '$letter%'\n";
+                $sql = "SELECT m.LastName, m.FirstName, m.TeamName, p.Position, p.JerseyNo, p.Height, p.Weight, p.BirthDate, p.College 
+                        FROM member AS m RIGHT JOIN player AS p ON (m.MemberID = p.MemberID) 
+                        WHERE (m.LastName LIKE '$letter%')\n";
                 //If a column is clicked, sort will be added to the query
                 if (isset($_GET['sort'])) {
                     if ($_GET['sort'] == 'lastName') {
@@ -147,7 +149,7 @@
                     }
                 }
                 else {
-                    echo "ERROR";
+                    echo "No Players Found";
                 }
                 $conn-> close();
                 ?>

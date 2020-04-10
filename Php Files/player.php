@@ -71,7 +71,9 @@
                 </tr>
             <?php
                 //Original SQL query to show all stats
-                $sql = "SELECT * FROM player_stats\n";
+                $sql = "SELECT p.Season, p.GP, p.GS, p.MIN, p.FG, p.`FG%`, p.3PT, p.`3P%`, p.FT, p.`FT%`,
+                        p.OR, p.DR, p.REB, p.AST, p.AST, p.BLK, p.STL, p.PF, p.TO, p.PPG, m.FirstName, m.LastName  
+                        FROM player_stats AS p RIGHT JOIN member AS m ON (m.MemberID = p.MemberID)\n";
                 //If a column is clicked, sort will be added to the query
                 if (isset($_GET['sort'])) {
                     if ($_GET['sort'] == 'firstName') {

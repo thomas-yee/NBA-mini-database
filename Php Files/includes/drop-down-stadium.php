@@ -31,9 +31,13 @@
     <th><a href='game.php?sort=arenaName&stadiumName=$stadiumName&order=$asc_or_desc'>Arena Name</a></th></tr>";
 
     //Original SQL query to show all stats
-    $sql = "SELECT * FROM `date` AS `t1` LEFT JOIN `game` AS `t2` ON `t2`.`DateId` = `t1`.`Id` WHERE `t2`.`ArenaName` LIKE '$stadiumName%'\n"
-    . "UNION ALL\n" // "." means to add this line
-    . "SELECT * FROM `date` AS `t1` RIGHT JOIN `game` AS `t2` ON `t2`.`DateId` = `t1`.`Id` WHERE `t2`.`ArenaName` LIKE '$stadiumName%' AND `t1`.`Id` is null\n";
+    $sql = "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName   
+            FROM `date` AS d LEFT JOIN game AS g ON (g.DateId = d.Id) 
+            WHERE (g.ArenaName LIKE '$stadiumName%')\n"
+            . "UNION ALL\n" // "." means to add this line
+            . "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName
+            FROM `date` AS d RIGHT JOIN game AS g ON (g.DateId = d.Id) 
+            WHERE (g.ArenaName LIKE '$stadiumName%' AND d.Id is null)\n";
     //If a column is clicked, sort will be added to the query
     if (isset($_GET['sort'])) {
         if ($_GET['sort'] == 'season') {
