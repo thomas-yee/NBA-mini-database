@@ -1,0 +1,499 @@
+MemberID,Position,JerseyNo,Height,Weight,BirthDate,College
+0,G/F,7,6 ft 6 in (1.98 m),223 lb (101 kg),1996-10-24,California
+1,G,4,5 ft 11 in (1.80 m),200 lb (91 kg),1998-03-12,Purdue
+2,C,99,7 ft 5 in (2.26 m),311 lb (141 kg),1995-12-10,UCF
+3,G/F,43,6 ft 4 in (1.93 m),205 lb (93 kg),1993-07-23,Radford
+4,F,20,6 ft 7 in (2.01 m),225 lb (102 kg),1990-03-23,Butler
+5,C,11,6 ft 10 in (2.08 m),250 lb (113 kg),1992-05-20,Kentucky
+6,G/F,45,6 ft 4 in (1.93 m),216 lb (98 kg),1999-10-25,Indiana
+7,F,37,6 ft 6 in (1.98 m),240 lb (109 kg),1994-12-05,SMU
+8,F/C,77,7 ft 0 in (2.13 m),235 lb (107 kg),1993-10-27,NaN
+9,G,36,6 ft 3 in (1.91 m),220 lb (100 kg),1994-03-06,Oklahoma State
+10,G/F,0,6 ft 8 in (2.03 m),210 lb (95 kg),1998-03-03,Duke
+11,F/C,27,6 ft 8 in (2.03 m),245 lb (111 kg),1992-04-04,NaN
+12,G,8,6 ft 0 in (1.83 m),184 lb (83 kg),1990-05-08,Connecticut
+13,G,9,6 ft 3 in (1.91 m),210 lb (95 kg),1989-07-25,Pittsburgh
+14,G,51,5 ft 10 in (1.78 m),175 lb (79 kg),1998-01-10,LSU
+15,F,12,6 ft 6 in (1.98 m),236 lb (107 kg),1998-11-30,Tennessee
+16,F/C,44,6 ft 8 in (2.03 m),237 lb (108 kg),1997-10-17,Texas A&M
+17,C,31,6 ft 11 in (2.11 m),243 lb (110 kg),1998-04-21,Texas
+18,F,21,6 ft 8 in (2.03 m),235 lb (107 kg),1987-05-10,DePaul
+19,G,4,5 ft 11 in (1.80 m),176 lb (80 kg),1995-11-25,Florida
+20,F/C,33,6 ft 11 in (2.11 m),215 lb (98 kg),1999-04-17,Georgia
+21,G,26,6 ft 5 in (1.96 m),215 lb (98 kg),1993-04-06,Colorado
+22,F,7,6 ft 10 in (2.08 m),240 lb (109 kg),1988-09-29,Texas
+23,G/F,12,6 ft 6 in (1.98 m),220 lb (100 kg),1991-09-07,Virginia
+24,G,11,6 ft 2 in (1.88 m),195 lb (88 kg),1992-03-23,Duke
+25,C,6,6 ft 11 in (2.11 m),265 lb (120 kg),1988-07-21,Texas A&M
+26,F,0,6 ft 9 in (2.06 m),228 lb (103 kg),1998-02-05,NaN
+27,G,22,6 ft 6 in (1.98 m),205 lb (93 kg),1994-08-25,Michigan
+28,G/F,9,6 ft 7 in (2.01 m),210 lb (95 kg),1995-05-09,NaN
+29,G,0,6 ft 2 in (1.88 m),185 lb (84 kg),1996-06-19,Memphis
+30,G/F,13,6 ft 9 in (2.06 m),217 lb (98 kg),1999-05-08,NaN
+31,G/F,1,6 ft 5 in (1.96 m),212 lb (96 kg),1995-11-05,North Carolina
+32,F,2,6 ft 7 in (2.01 m),218 lb (99 kg),1994-03-22,Baylor
+33,G/F,17,6 ft 5 in (1.96 m),195 lb (88 kg),1986-05-08,LSU
+34,G,0,6 ft 1 in (1.85 m),200 lb (91 kg),1993-01-15,Arizona
+35,G,9,6 ft 6 in (1.98 m),214 lb (97 kg),2000-07-14,Duke
+36,F,17,6 ft 6 in (1.98 m),221 lb (100 kg),1999-01-08,Michigan
+37,G/F,25,6 ft 6 in (1.98 m),205 lb (93 kg),1991-03-16,North Carolina
+38,G,21,6 ft 5 in (1.96 m),210 lb (95 kg),1994-05-06,Houston
+39,G,2,6 ft 4 in (1.93 m),207 lb (94 kg),1987-11-29,North Carolina
+40,F,67,6 ft 9 in (2.06 m),232 lb (105 kg),1985-06-24,USC
+41,G/F,3,6 ft 7 in (2.01 m),220 lb (100 kg),1993-05-11,St. John's
+42,F,20,6 ft 7 in (2.01 m),215 lb (98 kg),1999-08-11,Kentucky
+43,G,11,6 ft 4 in (1.93 m),200 lb (91 kg),1998-07-28,NaN
+44,G,6,6 ft 3 in (1.91 m),195 lb (88 kg),1994-02-22,Louisiana-Lafayette
+45,F,1,6 ft 10 in (2.08 m),250 lb (113 kg),1995-02-10,Arkansas
+46,F,30,6 ft 8 in (2.03 m),250 lb (113 kg),1994-11-29,Kentucky
+47,C,23,7 ft 0 in (2.13 m),240 lb (109 kg),1998-04-01,Western Kentucky
+48,G,5,6 ft 2 in (1.88 m),205 lb (93 kg),1997-11-25,North Carolina State
+49,G,14,6 ft 4 in (1.93 m),200 lb (91 kg),1996-01-17,Arizona
+50,F,45,6 ft 8 in (2.03 m),235 lb (107 kg),1998-04-17,NaN
+51,G,20,6 ft 6 in (1.98 m),214 lb (97 kg),1991-07-20,Colorado
+52,F/C,21,7 ft 0 in (2.13 m),280 lb (127 kg),1994-03-16,Kansas
+53,F,12,6 ft 8 in (2.03 m),226 lb (103 kg),1992-07-15,Tennessee
+54,F/C,42,6 ft 9 in (2.06 m),240 lb (109 kg),1986-06-03,Florida
+55,G/F,30,6 ft 7 in (2.01 m),202 lb (92 kg),1997-07-24,NaN
+56,G/F,18,6 ft 5 in (1.96 m),205 lb (93 kg),1996-09-26,SMU
+57,G,19,6 ft 1 in (1.85 m),180 lb (82 kg),1992-05-19,NaN
+58,F/C,9,6 ft 9 in (2.06 m),250 lb (113 kg),1990-03-26,Norfolk State
+59,F,14,6 ft 10 in (2.08 m),231 lb (105 kg),1993-02-03,NaN
+60,G,0,6 ft 5 in (1.96 m),200 lb (91 kg),1993-09-15,Tennessee
+61,F,40,6 ft 6 in (1.98 m),222 lb (101 kg),1994-01-08,Michigan
+62,F,1,6 ft 7 in (2.01 m),237 lb (108 kg),1988-07-16,Virginia
+63,G,35,6 ft 5 in (1.96 m),196 lb (89 kg),1995-07-26,Iowa State
+64,G/F,25,6 ft 10 in (2.08 m),240 lb (109 kg),1996-07-20,LSU
+65,G,5,6 ft 3 in (1.91 m),205 lb (93 kg),1999-06-04,Texas Tech
+66,G,22,6 ft 5 in (1.96 m),200 lb (91 kg),1997-03-04,Washington
+67,F,3,6 ft 7 in (2.01 m),232 lb (105 kg),1997-07-17,Indiana
+68,F,25,6 ft 9 in (2.06 m),200 lb (91 kg),1993-01-11,Oregon
+69,F,12,6 ft 7 in (2.01 m),210 lb (95 kg),1998-06-20,Syracuse
+70,G,0,6 ft 4 in (1.93 m),205 lb (93 kg),1997-05-16,Ole Miss
+71,C,33,7 ft 1 in (2.16 m),255 lb (116 kg),1985-01-29,NaN
+72,F,20,6 ft 10 in (2.08 m),235 lb (107 kg),1996-12-09,Miami (FL)
+73,F,4,6 ft 7 in (2.01 m),217 lb (98 kg),1995-01-03,Arizona
+74,F/C,9,7 ft 0 in (2.13 m),235 lb (107 kg),1989-09-18,NaN
+75,F,5,6 ft 7 in (2.01 m),245 lb (111 kg),1996-05-29,Arizona
+76,G,7,6 ft 0 in (1.83 m),196 lb (89 kg),1986-03-25,Villanova
+77,G,22,6 ft 7 in (2.01 m),185 lb (84 kg),1995-10-25,UNLV
+78,F,13,6 ft 7 in (2.01 m),210 lb (95 kg),1993-03-06,Holy Cross
+79,G/F,24,6 ft 3 in (1.91 m),215 lb (98 kg),1993-05-25,UCLA
+80,F,43,6 ft 9 in (2.06 m),230 lb (104 kg),1994-04-02,New Mexico State
+81,G,21,6 ft 4 in (1.93 m),190 lb (86 kg),1994-08-04,Iowa State
+82,G,23,6 ft 0 in (1.83 m),195 lb (88 kg),1994-02-25,Wichita State
+83,F,1,6 ft 6 in (1.98 m),210 lb (95 kg),1994-12-30,Fresno State
+84,G,51,6 ft 3 in (1.91 m),195 lb (88 kg),1994-03-26,Villanova
+85,F/C,34,6 ft 9 in (2.06 m),270 lb (122 kg),1999-04-16,Duke
+86,G,32,6 ft 3 in (1.91 m),205 lb (93 kg),1994-03-18,Providence
+87,F/C,6,6 ft 10 in (2.08 m),270 lb (122 kg),1992-07-07,NaN
+88,F/C,12,6 ft 10 in (2.08 m),234 lb (106 kg),1998-10-01,Arkansas
+89,G,3,6 ft 7 in (2.01 m),190 lb (86 kg),1993-10-06,Tulsa
+90,G/F,15,6 ft 7 in (2.01 m),210 lb (95 kg),1996-04-26,Boise State
+91,F/C,2,7 ft 2 in (2.18 m),250 lb (113 kg),1995-07-15,Vanderbilt
+92,G/F,8,6 ft 6 in (1.98 m),200 lb (91 kg),1995-03-10,UCLA
+93,F/C,24,7 ft 0 in (2.13 m),240 lb (109 kg),1997-05-22,Arizona
+94,G,20,6 ft 5 in (1.96 m),190 lb (86 kg),1998-07-18,NaN
+95,F,22,6 ft 8 in (2.03 m),198 lb (90 kg),1993-06-03,Georgetown
+96,G,31,6 ft 7 in (2.01 m),210 lb (95 kg),1991-10-30,NaN
+97,G/F,28,6 ft 5 in (1.96 m),215 lb (98 kg),1996-03-28,DePaul
+98,G,45,6 ft 4 in (1.93 m),220 lb (100 kg),1993-11-16,Michigan State
+99,G,0,6 ft 4 in (1.93 m),195 lb (88 kg),2000-02-16,North Carolina
+100,F,21,6 ft 8 in (2.03 m),235 lb (107 kg),1988-06-21,Georgia Tech
+101,G,18,6 ft 3 in (1.91 m),200 lb (91 kg),1990-09-08,Saint Mary's
+102,C,3,6 ft 10 in (2.08 m),279 lb (127 kg),1993-08-10,Connecticut
+103,G,1,6 ft 5 in (1.96 m),214 lb (97 kg),1995-07-13,NaN
+104,G,10,6 ft 1 in (1.85 m),192 lb (87 kg),2000-01-26,Vanderbilt
+105,F/C,0,6 ft 8 in (2.03 m),251 lb (114 kg),1988-09-07,UCLA
+106,G/F,5,6 ft 6 in (1.98 m),200 lb (91 kg),1992-12-21,NaN
+107,F,28,6 ft 7 in (2.01 m),215 lb (98 kg),1992-09-17,Green Bay
+108,G,31,6 ft 2 in (1.88 m),199 lb (90 kg),1995-02-07,Texas Tech
+109,F/C,22,6 ft 7 in (2.01 m),245 lb (111 kg),1993-01-01,Wyoming
+110,F,16,6 ft 7 in (2.01 m),230 lb (104 kg),1995-04-08,NaN
+111,G/F,15,6 ft 6 in (1.98 m),192 lb (87 kg),1992-05-06,NaN
+112,G/F,4,6 ft 4 in (1.93 m),203 lb (92 kg),2000-05-04,USC
+113,G,2,6 ft 1 in (1.85 m),190 lb (86 kg),1999-01-04,Alabama
+114,F/C,13,6 ft 9 in (2.06 m),254 lb (115 kg),1991-03-13,Texas
+115,F/C,32,6 ft 9 in (2.06 m),228 lb (103 kg),1996-11-20,Kansas State
+116,G/F,9,6 ft 6 in (1.98 m),196 lb (89 kg),1996-09-22,NaN
+117,C,41,6 ft 10 in (2.08 m),266 lb (121 kg),1997-01-04,NaN
+118,G,18,6 ft 3 in (1.91 m),180 lb (82 kg),1997-11-05,Tennessee
+119,G/F,6,6 ft 4 in (1.93 m),202 lb (92 kg),1996-08-15,Miami (FL)
+120,F,45,6 ft 8 in (2.03 m),230 lb (104 kg),2000-12-23,NaN
+121,G,9,6 ft 1 in (1.85 m),200 lb (91 kg),1991-12-09,Saint Joseph's
+122,F,23,6 ft 9 in (2.06 m),250 lb (113 kg),1989-03-16,Oklahoma
+123,F,42,6 ft 9 in (2.06 m),229 lb (104 kg),1997-08-07,Alabama
+124,F/C,31,6 ft 9 in (2.06 m),219 lb (99 kg),1990-12-28,North Carolina
+125,G,5,6 ft 5 in (1.96 m),206 lb (93 kg),1996-06-24,Duke
+126,F,14,6 ft 7 in (2.01 m),205 lb (93 kg),1999-04-06,Oregon
+127,G,20,6 ft 2 in (1.88 m),182 lb (83 kg),1991-12-02,Kentucky
+128,F/C,7,7 ft 0 in (2.13 m),221 lb (100 kg),1997-02-25,NaN
+129,G/F,52,6 ft 5 in (1.96 m),179 lb (81 kg),1991-03-28,Tennessee
+130,G/F,19,6 ft 7 in (2.01 m),205 lb (93 kg),1997-06-10,Kansas
+131,G,25,6 ft 2 in (1.88 m),200 lb (91 kg),1988-10-04,Memphis
+132,G,17,6 ft 6 in (1.98 m),213 lb (97 kg),1991-11-10,New Mexico
+133,G,13,6 ft 3 in (1.91 m),210 lb (95 kg),1996-05-08,Creighton
+134,F,35,6 ft 10 in (2.08 m),214 lb (97 kg),1995-09-27,UNLV
+135,C,88,6 ft 11 in (2.11 m),250 lb (113 kg),1999-07-20,NaN
+136,F,10,6 ft 6 in (1.98 m),190 lb (86 kg),1998-10-02,NaN
+137,G,7,6 ft 5 in (1.96 m),223 lb (101 kg),1992-12-11,Virginia
+138,G,3,6 ft 0 in (1.83 m),185 lb (84 kg),1996-09-30,UCLA
+139,G,8,6 ft 6 in (1.98 m),180 lb (82 kg),1989-04-05,Washington
+140,F,24,6 ft 7 in (2.01 m),201 lb (91 kg),1996-04-22,Missouri State
+141,G,26,6 ft 5 in (1.96 m),180 lb (82 kg),1992-05-30,Connecticut
+142,F,22,6 ft 10 in (2.08 m),222 lb (101 kg),1997-04-30,NaN
+143,G,9,6 ft 1 in (1.85 m),200 lb (91 kg),1992-03-25,NaN
+144,F,20,6 ft 7 in (2.01 m),218 lb (99 kg),1992-01-03,Creighton
+145,G,15,6 ft 3 in (1.91 m),218 lb (99 kg),1993-08-03,Iowa State
+146,G,4,6 ft 4 in (1.93 m),213 lb (97 kg),1992-05-04,Indiana
+147,F,11,6 ft 11 in (2.11 m),231 lb (105 kg),1996-05-03,Gonzaga
+148,F,14,6 ft 7 in (2.01 m),223 lb (101 kg),1993-02-20,St. John's
+149,G,5,6 ft 4 in (1.93 m),186 lb (84 kg),1995-12-31,Xavier
+150,C,33,6 ft 11 in (2.11 m),239 lb (108 kg),1996-03-24,Texas
+151,F,1,6 ft 8 in (2.03 m),220 lb (100 kg),1993-09-05,NaN
+152,F,34,6 ft 11 in (2.11 m),242 lb (110 kg),1994-12-06,NaN
+153,F,43,6 ft 6 in (1.98 m),219 lb (99 kg),1992-07-18,NaN
+154,G,6,6 ft 1 in (1.85 m),214 lb (97 kg),1989-12-09,Kentucky
+155,G/F,23,6 ft 5 in (1.96 m),219 lb (99 kg),1995-02-10,SMU
+156,G,24,6 ft 5 in (1.96 m),209 lb (95 kg),1993-01-06,Notre Dame
+157,G,0,6 ft 4 in (1.93 m),203 lb (92 kg),1997-01-31,Villanova
+158,G,3,6 ft 3 in (1.91 m),188 lb (85 kg),1986-05-04,IUPUI
+159,F,7,6 ft 9 in (2.06 m),235 lb (107 kg),1987-05-15,NaN
+160,G/F,26,6 ft 7 in (2.01 m),212 lb (96 kg),1981-03-17,Creighton
+161,C,11,7 ft 0 in (2.13 m),270 lb (122 kg),1988-04-01,Stanford
+162,C,42,7 ft 0 in (2.13 m),281 lb (127 kg),1988-04-01,Stanford
+163,G,15,5 ft 11 in (1.80 m),190 lb (86 kg),1994-04-03,Kansas
+164,G,9,6 ft 4 in (1.93 m),220 lb (100 kg),1986-10-14,Marquette
+165,F,22,6 ft 7 in (2.01 m),222 lb (101 kg),1991-08-12,Texas A&M
+166,G/F,13,6 ft 7 in (2.01 m),225 lb (102 kg),1995-02-07,Tulane
+167,F,2,6 ft 8 in (2.03 m),237 lb (108 kg),1986-06-19,North Carolina
+168,F,5,6 ft 10 in (2.08 m),231 lb (105 kg),1996-02-19,NaN
+169,G/F,95,6 ft 5 in (1.96 m),210 lb (95 kg),1994-07-04,Saint Joseph's
+170,F,4,6 ft 6 in (1.98 m),199 lb (90 kg),1998-02-02,Saint Joseph's
+171,C,17,6 ft 10 in (2.08 m),240 lb (109 kg),1994-05-18,NaN
+172,G/F,15,6 ft 6 in (1.98 m),220 lb (100 kg),1977-01-26,North Carolina
+173,F,20,6 ft 9 in (2.06 m),235 lb (107 kg),1997-09-23,Wake Forest
+174,C,14,7 ft 0 in (2.13 m),245 lb (111 kg),1989-08-12,USC
+175,F/C,24,6 ft 9 in (2.06 m),233 lb (106 kg),1998-08-15,Maryland
+176,G,0,6 ft 0 in (1.83 m),180 lb (82 kg),1995-10-02,Florida Gulf Coast
+177,G/F,2,6 ft 5 in (1.96 m),219 lb (99 kg),1993-10-28,Virginia Commonwealth
+178,G/F,3,6 ft 7 in (2.01 m),190 lb (86 kg),1998-08-27,Maryland
+179,G/F,12,6 ft 7 in (2.01 m),225 lb (102 kg),1997-12-02,Virginia
+180,C,30,6 ft 11 in (2.11 m),245 lb (111 kg),1995-06-30,Vanderbilt
+181,F,7,6 ft 11 in (2.11 m),235 lb (107 kg),1996-03-18,Kentucky
+182,G/F,22,6 ft 8 in (2.03 m),218 lb (99 kg),1999-09-01,Duke
+183,G,0,6 ft 3 in (1.91 m),181 lb (82 kg),1988-06-10,Wake Forest
+184,G,11,6 ft 1 in (1.85 m),180 lb (82 kg),1998-09-19,Oklahoma
+185,G/F,7,6 ft 6 in (1.98 m),221 lb (100 kg),1995-08-30,Florida State
+186,G/F,5,6 ft 9 in (2.06 m),230 lb (104 kg),1988-12-14,NaN
+187,C,8,6 ft 8 in (2.03 m),255 lb (116 kg),1992-08-28,NaN
+188,G,31,6 ft 3 in (1.91 m),190 lb (86 kg),1995-11-01,Charleston
+189,F,0,6 ft 6 in (1.98 m),225 lb (102 kg),1998-03-21,Michigan State
+190,G,4,6 ft 1 in (1.85 m),195 lb (88 kg),1995-02-22,Kansas
+191,F/C,9,6 ft 11 in (2.11 m),250 lb (113 kg),1994-05-27,NaN
+192,F,10,6 ft 5 in (1.96 m),205 lb (93 kg),1995-09-28,Nevada
+193,F,11,6 ft 5 in (1.96 m),205 lb (93 kg),1995-09-28,Nevada
+194,F/C,6,6 ft 10 in (2.08 m),205 lb (93 kg),1998-01-31,San Diego State
+195,G,1,6 ft 3 in (1.91 m),200 lb (91 kg),1998-02-04,Kentucky
+196,G,3,6 ft 1 in (1.85 m),190 lb (86 kg),1994-03-17,Louisville
+197,G,23,6 ft 5 in (1.96 m),180 lb (82 kg),1997-07-04,Arizona
+198,F,26,6 ft 9 in (2.06 m),225 lb (102 kg),1997-03-11,Louisville
+199,F,25,6 ft 7 in (2.01 m),230 lb (104 kg),1998-08-23,NaN
+200,F/C,40,7 ft 0 in (2.13 m),240 lb (109 kg),1992-10-05,Indiana
+201,F/C,13,6 ft 9 in (2.06 m),255 lb (116 kg),1997-07-18,Kentucky
+202,F/C,17,6 ft 10 in (2.08 m),216 lb (98 kg),1996-10-21,NaN
+203,F,22,6 ft 7 in (2.01 m),230 lb (104 kg),1989-09-14,Marquette
+204,F,99,6 ft 6 in (1.98 m),235 lb (107 kg),1990-07-06,Marquette
+205,G,7,6 ft 3 in (1.91 m),190 lb (86 kg),1986-05-06,NaN
+206,F,40,6 ft 8 in (2.03 m),235 lb (107 kg),1980-06-09,Florida
+207,G,14,6 ft 5 in (1.96 m),195 lb (88 kg),2000-01-20,Kentucky
+208,F,44,6 ft 7 in (2.01 m),225 lb (102 kg),1991-03-18,Arizona
+209,G/F,28,6 ft 6 in (1.98 m),215 lb (98 kg),1984-01-28,Arizona
+210,F,5,6 ft 6 in (1.98 m),210 lb (95 kg),1997-02-15,UNLV
+211,F/C,0,7 ft 0 in (2.13 m),260 lb (118 kg),1992-02-27,Illinois
+212,G,25,6 ft 2 in (1.88 m),190 lb (86 kg),1995-08-03,Oakland
+213,G/F,4,6 ft 8 in (2.03 m),215 lb (98 kg),1999-04-28,Stanford
+214,F/C,9,6 ft 11 in (2.11 m),240 lb (109 kg),1991-04-19,Gonzaga
+215,F,55,6 ft 7 in (2.01 m),215 lb (98 kg),1994-04-22,Michigan
+216,F,30,6 ft 8 in (2.03 m),234 lb (106 kg),1996-09-19,South Carolina
+217,G,2,6 ft 3 in (1.91 m),200 lb (91 kg),1996-06-14,UC Santa Barbara
+218,F,2,6 ft 8 in (2.03 m),220 lb (100 kg),1990-09-21,Wake Forest
+219,G,14,5 ft 11 in (1.80 m),183 lb (83 kg),1987-11-10,NaN
+220,C,5,7 ft 0 in (2.13 m),231 lb (105 kg),1998-05-12,Texas
+221,C,24,6 ft 9 in (2.06 m),220 lb (100 kg),1992-09-28,UNLV
+222,G,7,6 ft 5 in (1.96 m),190 lb (86 kg),1991-10-10,Syracuse
+223,F,12,6 ft 6 in (1.98 m),225 lb (102 kg),1994-11-16,Cincinnati
+224,F,11,6 ft 6 in (1.98 m),215 lb (98 kg),1990-07-01,Long Beach State
+225,G/F,10,6 ft 7 in (2.01 m),205 lb (93 kg),1992-10-29,NaN
+226,G/F,35,6 ft 5 in (1.96 m),215 lb (98 kg),1996-08-30,Tulane
+227,G,20,6 ft 3 in (1.91 m),209 lb (95 kg),1998-05-29,Washington
+228,F,0,6 ft 8 in (2.03 m),235 lb (107 kg),1995-09-16,Arizona
+229,F,1,6 ft 11 in (2.11 m),230 lb (104 kg),1997-10-03,Florida State
+230,F,25,6 ft 6 in (1.98 m),195 lb (88 kg),1994-12-20,Kansas State
+231,G,13,6 ft 7 in (2.01 m),200 lb (91 kg),1995-12-21,NaN
+232,F,23,6 ft 7 in (2.01 m),200 lb (91 kg),1995-12-19,Northwestern
+233,G/F,31,6 ft 6 in (1.98 m),206 lb (93 kg),1991-02-05,Washington
+234,C,9,6 ft 11 in (2.11 m),260 lb (118 kg),1990-10-24,USC
+235,G,3,6 ft 5 in (1.96 m),207 lb (94 kg),1993-06-28,Florida
+236,F,42,6 ft 10 in (2.08 m),225 lb (102 kg),1992-11-12,NaN
+237,G,17,6 ft 8 in (2.03 m),180 lb (82 kg),1999-11-08,NaN
+238,F,6,6 ft 7 in (2.01 m),215 lb (98 kg),1999-07-28,Oregon
+239,C,13,6 ft 11 in (2.11 m),248 lb (112 kg),1997-07-31,Indiana
+240,F,8,6 ft 8 in (2.03 m),230 lb (104 kg),1998-02-08,Gonzaga
+241,C,28,6 ft 11 in (2.11 m),262 lb (119 kg),1986-11-05,NaN
+242,G,24,6 ft 5 in (1.96 m),204 lb (93 kg),1996-10-24,Lipscomb
+243,G,5,6 ft 0 in (1.83 m),175 lb (79 kg),1991-07-14,Connecticut
+244,C,18,7 ft 2 in (2.18 m),229 lb (104 kg),1995-12-20,NaN
+245,G,20,6 ft 3 in (1.91 m),190 lb (86 kg),1992-12-01,Oregon State
+246,G,12,6 ft 4 in (1.93 m),190 lb (86 kg),1997-02-22,Boston College
+247,F,1,6 ft 6 in (1.98 m),241 lb (109 kg),1997-03-30,Tennessee
+248,G,14,6 ft 0 in (1.83 m),175 lb (79 kg),1988-07-05,Wake Forest
+249,C,21,6 ft 11 in (2.11 m),245 lb (111 kg),1997-04-26,Michigan
+250,G,2,6 ft 4 in (1.93 m),210 lb (95 kg),1990-09-06,Kentucky
+251,F,9,6 ft 8 in (2.03 m),216 lb (98 kg),1995-05-22,NaN
+252,G,5,5 ft 10 in (1.78 m),180 lb (82 kg),1984-06-26,NaN
+253,G,13,6 ft 1 in (1.85 m),190 lb (86 kg),1996-08-31,Villanova
+254,C,33,7 ft 0 in (2.13 m),242 lb (110 kg),1993-08-18,Kentucky
+255,G,3,6 ft 5 in (1.96 m),195 lb (88 kg),1994-02-02,Southeast Missouri State
+256,G,30,6 ft 2 in (1.88 m),185 lb (84 kg),1990-08-23,Duke
+257,G/F,77,6 ft 7 in (2.01 m),230 lb (104 kg),1999-02-28,NaN
+258,F,10,6 ft 7 in (2.01 m),220 lb (100 kg),1993-05-04,Florida
+259,G/F,11,6 ft 5 in (1.96 m),205 lb (93 kg),1992-03-16,Michigan
+260,F,44,6 ft 7 in (2.01 m),220 lb (100 kg),1995-03-28,North Carolina
+261,F,9,6 ft 6 in (1.98 m),232 lb (105 kg),1993-09-26,Kentucky
+262,F,42,6 ft 10 in (2.08 m),240 lb (109 kg),1992-01-29,NaN
+263,G,1,6 ft 5 in (1.96 m),215 lb (98 kg),1985-10-03,Western Kentucky
+264,C,51,7 ft 4 in (2.24 m),290 lb (132 kg),1988-08-15,NaN
+265,F/C,6,7 ft 3 in (2.21 m),240 lb (109 kg),1995-08-02,NaN
+266,F/C,7,6 ft 10 in (2.08 m),240 lb (109 kg),1991-07-20,Stanford
+267,G,23,6 ft 4 in (1.93 m),214 lb (97 kg),1997-06-04,Penn State
+268,G,55,6 ft 5 in (1.96 m),241 lb (109 kg),1992-04-26,Utah
+269,F,5,6 ft 9 in (2.06 m),218 lb (99 kg),1995-09-21,NaN
+270,F,9,6 ft 8 in (2.03 m),210 lb (95 kg),1986-07-27,Missouri
+271,C,19,7 ft 0 in (2.13 m),235 lb (107 kg),1982-10-02,NaN
+272,G,3,5 ft 9 in (1.75 m),180 lb (82 kg),1997-07-23,Campbell
+273,F,33,6 ft 7 in (2.01 m),209 lb (95 kg),1990-12-14,Tennessee State
+274,G,21,6 ft 3 in (1.91 m),200 lb (91 kg),1994-03-08,Florida
+275,F,32,6 ft 8 in (2.03 m),235 lb (107 kg),1986-08-28,Georgetown
+276,G,10,6 ft 3 in (1.91 m),215 lb (98 kg),1988-12-25,Indiana
+277,G,13,6 ft 5 in (1.96 m),220 lb (100 kg),1989-08-26,Arizona State
+278,F/C,55,7 ft 0 in (2.13 m),250 lb (113 kg),1998-05-05,NaN
+279,G/F,4,6 ft 6 in (1.98 m),220 lb (100 kg),1993-06-07,Texas A&M
+280,G/F,52,6 ft 8 in (2.03 m),207 lb (94 kg),1993-10-25,NaN
+281,G,16,6 ft 3 in (1.91 m),189 lb (86 kg),1993-02-11,Kansas
+282,G,25,6 ft 3 in (1.91 m),200 lb (91 kg),1992-08-01,Duke
+283,G/F,18,6 ft 6 in (1.98 m),215 lb (98 kg),1984-05-02,NaN
+284,F,17,6 ft 5 in (1.96 m),225 lb (102 kg),1985-05-05,NaN
+285,G,0,6 ft 3 in (1.91 m),190 lb (86 kg),1988-11-12,UCLA
+286,G,3,6 ft 5 in (1.96 m),198 lb (90 kg),1995-10-08,Duke
+287,G/F,1,6 ft 9 in (2.06 m),230 lb (104 kg),1993-09-20,UCLA
+288,G/F,24,6 ft 6 in (1.98 m),220 lb (100 kg),1996-01-22,Oregon
+289,G/F,15,6 ft 8 in (2.03 m),210 lb (95 kg),1996-09-19,Gonzaga
+290,F/C,14,6 ft 10 in (2.08 m),252 lb (114 kg),1990-01-18,Louisville
+291,F,23,6 ft 6 in (1.98 m),201 lb (91 kg),1995-03-08,NaN
+292,F/C,13,6 ft 11 in (2.11 m),242 lb (110 kg),1999-09-15,Michigan State
+293,G/F,20,6 ft 8 in (2.03 m),207 lb (94 kg),1997-02-10,Kansas
+294,G,21,6 ft 2 in (1.88 m),196 lb (89 kg),1996-05-10,Duke
+295,G,46,6 ft 5 in (1.96 m),210 lb (95 kg),1996-03-22,NaN
+296,G,0,6 ft 4 in (1.93 m),200 lb (91 kg),1998-05-28,USC
+297,G,12,6 ft 3 in (1.91 m),175 lb (79 kg),1999-08-10,Murray State
+298,F/C,-,6 ft 10 in (2.08 m),236 lb (107 kg),1999-11-15,NaN
+299,F,44,6 ft 8 in (2.03 m),240 lb (109 kg),1985-06-01,Creighton
+300,C,17,7 ft 0 in (2.13 m),265 lb (120 kg),1992-05-06,NaN
+301,G/F,18,6 ft 9 in (2.06 m),205 lb (93 kg),1994-10-13,George Washington
+302,G/F,7,6 ft 7 in (2.01 m),222 lb (101 kg),1996-03-26,Duke
+303,G,0,6 ft 5 in (1.96 m),205 lb (93 kg),1998-09-02,Virginia Tech
+304,G,2,6 ft 6 in (1.98 m),190 lb (86 kg),1997-10-27,UCLA
+305,F,45,6 ft 5 in (1.96 m),220 lb (100 kg),1995-11-17,Arizona State
+306,F,22,6 ft 9 in (2.06 m),246 lb (112 kg),1991-07-15,Georgia Tech
+307,G,5,6 ft 0 in (1.83 m),180 lb (82 kg),1993-09-09,LSU
+308,G,3,6 ft 5 in (1.96 m),204 lb (93 kg),1995-03-06,Villanova
+309,F/C,10,6 ft 11 in (2.11 m),220 lb (100 kg),2000-05-23,Texas
+310,G,11,6 ft 3 in (1.91 m),180 lb (82 kg),1990-06-12,UCLA
+311,F,14,6 ft 7 in (2.01 m),196 lb (89 kg),1997-09-02,Duke
+312,G,15,6 ft 3 in (1.91 m),205 lb (93 kg),1998-05-04,Duke
+313,F,20,6 ft 9 in (2.06 m),236 lb (107 kg),1991-01-26,NaN
+314,F,21,6 ft 6 in (1.98 m),225 lb (102 kg),1990-03-21,Kentucky
+315,G,55,6 ft 3 in (1.91 m),191 lb (87 kg),1989-02-25,Purdue
+316,F/C,9,6 ft 10 in (2.08 m),270 lb (122 kg),1995-12-15,Duke
+317,G,4,6 ft 3 in (1.91 m),190 lb (86 kg),1984-06-24,Duke
+318,G/F,34,6 ft 6 in (1.98 m),210 lb (95 kg),1994-12-02,TCU
+319,F,1,6 ft 6 in (1.98 m),284 lb (129 kg),2000-07-06,Duke
+320,F/C,12,6 ft 11 in (2.11 m),260 lb (118 kg),1985-07-19,Texas
+321,G,18,6 ft 5 in (1.96 m),210 lb (95 kg),1986-03-25,NaN
+322,G/F,10,6 ft 7 in (2.01 m),220 lb (100 kg),1989-08-07,USC
+323,F/C,14,6 ft 10 in (2.08 m),250 lb (113 kg),1997-02-01,Oregon State
+324,G,11,6 ft 3 in (1.91 m),190 lb (86 kg),1993-07-23,Michigan State
+325,G/F,22,6 ft 8 in (2.03 m),230 lb (104 kg),1986-08-17,Connecticut
+326,G/F,3,6 ft 6 in (1.98 m),211 lb (96 kg),1999-10-11,Kentucky
+327,F,41,6 ft 10 in (2.08 m),234 lb (106 kg),1995-11-05,Kentucky
+328,F/C,7,6 ft 10 in (2.08 m),225 lb (102 kg),1997-03-22,USC
+329,G,8,6 ft 0 in (1.83 m),180 lb (82 kg),1988-08-11,Saint Mary's
+330,G,5,6 ft 5 in (1.96 m),170 lb (77 kg),1996-09-19,Washington
+331,C,25,7 ft 0 in (2.13 m),230 lb (104 kg),1995-10-15,Utah
+332,F,19,6 ft 11 in (2.11 m),227 lb (103 kg),2000-01-09,NaN
+333,G/F,1,6 ft 5 in (1.96 m),205 lb (93 kg),1998-12-14,Miami (FL)
+334,G,15,6 ft 4 in (1.93 m),207 lb (94 kg),1996-09-10,Mississippi State
+335,G,4,6 ft 4 in (1.93 m),190 lb (86 kg),1994-07-02,Colorado
+336,G,5,6 ft 5 in (1.96 m),181 lb (82 kg),1991-01-06,Memphis
+337,F,6,6 ft 8 in (2.03 m),235 lb (107 kg),1996-01-23,Ohio State
+338,F/C,10,7 ft 2 in (2.18 m),220 lb (100 kg),1999-11-16,NaN
+339,F,31,6 ft 8 in (2.03 m),236 lb (107 kg),1997-04-10,NaN
+340,F,3,6 ft 7 in (2.01 m),221 lb (100 kg),1990-12-19,USC Upstate
+341,G,30,6 ft 4 in (1.93 m),200 lb (91 kg),1991-06-15,Virginia Commonwealth
+342,G/F,35,6 ft 6 in (1.98 m),205 lb (93 kg),1996-10-25,NaN
+343,F,9,6 ft 8 in (2.03 m),210 lb (95 kg),1994-03-12,Syracuse
+344,G,14,6 ft 4 in (1.93 m),210 lb (95 kg),1994-09-14,Michigan State
+345,C,15,7 ft 0 in (2.13 m),284 lb (129 kg),1995-02-19,NaN
+346,F,4,6 ft 7 in (2.01 m),257 lb (117 kg),1985-02-10,Louisiana Tech
+347,G,11,6 ft 2 in (1.88 m),183 lb (83 kg),1995-06-27,Iowa State
+348,G,27,6 ft 4 in (1.93 m),215 lb (98 kg),1997-02-23,Kentucky
+349,F/C,7,6 ft 11 in (2.11 m),254 lb (115 kg),1990-03-05,Duke
+350,F,1,6 ft 10 in (2.08 m),218 lb (99 kg),1998-06-29,Missouri
+351,F,32,6 ft 10 in (2.08 m),247 lb (112 kg),1995-08-24,Indiana
+352,G,5,6 ft 4 in (1.93 m),187 lb (85 kg),1996-11-26,Florida State
+353,G/F,23,6 ft 6 in (1.98 m),195 lb (88 kg),1999-02-20,Texas Tech
+354,G/F,12,6 ft 4 in (1.93 m),210 lb (95 kg),1997-06-18,Cincinnati
+355,F,41,6 ft 9 in (2.06 m),214 lb (97 kg),1995-09-28,NaN
+356,F,16,6 ft 7 in (2.01 m),240 lb (109 kg),1987-02-20,Wake Forest
+357,F,10,6 ft 8 in (2.03 m),209 lb (95 kg),1994-03-07,Maryland
+358,F,30,6 ft 5 in (1.96 m),230 lb (104 kg),1995-08-03,Butler
+359,G,6,5 ft 11 in (1.80 m),185 lb (84 kg),1996-04-09,USC
+360,G,4,6 ft 4 in (1.93 m),201 lb (91 kg),1999-07-09,Washington
+361,G,20,6 ft 4 in (1.93 m),213 lb (97 kg),1998-09-01,Georgia Tech
+362,F/C,11,6 ft 9 in (2.06 m),249 lb (113 kg),1999-08-26,LSU
+363,G,0,6 ft 4 in (1.93 m),193 lb (88 kg),1996-02-23,Ohio State
+364,F,14,6 ft 8 in (2.03 m),245 lb (111 kg),1997-07-21,Villanova
+365,F/C,32,6 ft 11 in (2.11 m),248 lb (112 kg),1995-11-15,Kentucky
+366,G/F,1,6 ft 6 in (1.98 m),220 lb (100 kg),1988-06-10,Ohio State
+367,F,3,6 ft 9 in (2.06 m),214 lb (97 kg),1999-04-03,Kentucky
+368,C,12,6 ft 11 in (2.11 m),265 lb (120 kg),1993-07-20,Pittsburgh
+369,G/F,7,6 ft 8 in (2.03 m),208 lb (94 kg),2000-06-12,NaN
+370,G/F,30,6 ft 4 in (1.93 m),240 lb (109 kg),1994-01-31,Iowa State
+371,G,6,6 ft 5 in (1.96 m),202 lb (92 kg),1998-07-31,Kentucky
+372,G,5,6 ft 3 in (1.91 m),215 lb (98 kg),1999-04-19,Arizona State
+373,G,23,6 ft 6 in (1.98 m),190 lb (86 kg),1998-05-17,NaN
+374,F,8,6 ft 10 in (2.08 m),233 lb (106 kg),1988-08-08,NaN
+375,G/F,2,6 ft 5 in (1.96 m),180 lb (82 kg),1998-07-12,Kentucky
+376,F,15,6 ft 9 in (2.06 m),230 lb (104 kg),1996-07-09,Texas-Arlington
+377,F/C,33,6 ft 10 in (2.08 m),240 lb (109 kg),1991-07-01,Bucknell
+378,G,11,6 ft 5 in (1.96 m),225 lb (102 kg),1993-09-25,Iowa State
+379,F/C,9,6 ft 10 in (2.08 m),220 lb (100 kg),1994-04-10,Kentucky
+380,G,3,6 ft 1 in (1.85 m),175 lb (79 kg),1985-05-06,Wake Forest
+381,G/F,21,6 ft 7 in (2.01 m),210 lb (95 kg),1991-12-04,Colorado
+382,F,22,6 ft 8 in (2.03 m),230 lb (104 kg),1998-02-03,Nebraska
+383,G,17,6 ft 1 in (1.85 m),172 lb (78 kg),1993-09-15,NaN
+384,F,0,6 ft 8 in (2.03 m),240 lb (109 kg),1984-05-29,Syracuse
+385,F,8,6 ft 8 in (2.03 m),215 lb (98 kg),1985-06-30,UCLA
+386,C,4,7 ft 1 in (2.16 m),245 lb (111 kg),1999-10-13,UCLA
+387,F/C,33,7 ft 0 in (2.13 m),235 lb (107 kg),1997-11-19,Gonzaga
+388,F,35,6 ft 9 in (2.06 m),205 lb (93 kg),1997-03-26,Kentucky
+389,F,44,6 ft 8 in (2.03 m),225 lb (102 kg),1995-02-25,NaN
+390,F,6,6 ft 8 in (2.03 m),215 lb (98 kg),1999-03-30,Wake Forest
+391,F,5,6 ft 8 in (2.03 m),206 lb (93 kg),1992-10-20,Duke
+392,G,0,6 ft 3 in (1.91 m),195 lb (88 kg),1990-07-15,Weber State
+393,F,22,6 ft 6 in (1.98 m),220 lb (100 kg),2000-02-11,North Carolina
+394,G,3,6 ft 3 in (1.91 m),190 lb (86 kg),1991-09-19,Lehigh
+395,C,27,7 ft 0 in (2.13 m),275 lb (125 kg),1994-08-23,NaN
+396,G,1,6 ft 4 in (1.93 m),185 lb (84 kg),1999-06-08,NaN
+397,F,50,6 ft 9 in (2.06 m),260 lb (118 kg),1997-04-18,Purdue
+398,G,2,6 ft 6 in (1.98 m),205 lb (93 kg),1999-01-18,Duke
+399,C,21,7 ft 0 in (2.13 m),265 lb (120 kg),1989-06-13,Marshall
+400,F,44,6 ft 8 in (2.03 m),226 lb (103 kg),1989-04-18,NaN
+401,F/C,13,6 ft 10 in (2.08 m),248 lb (112 kg),1998-01-08,North Carolina
+402,F,5,6 ft 5 in (1.96 m),250 lb (113 kg),1996-06-01,Charleston
+403,G,0,6 ft 4 in (1.93 m),186 lb (84 kg),1992-06-07,Missouri
+404,G,10,6 ft 1 in (1.85 m),175 lb (79 kg),1987-10-11,Ohio State
+405,C,17,6 ft 9 in (2.06 m),218 lb (99 kg),1989-06-05,North Carolina
+406,C,27,7 ft 1 in (2.16 m),258 lb (117 kg),1992-06-26,NaN
+407,G/F,2,6 ft 7 in (2.01 m),220 lb (100 kg),1987-10-02,NaN
+408,G,45,6 ft 1 in (1.85 m),215 lb (98 kg),1996-09-07,Louisville
+409,F,16,6 ft 8 in (2.03 m),232 lb (105 kg),1997-04-17,Indiana
+410,G,15,6 ft 3 in (1.91 m),200 lb (91 kg),1996-03-05,NaN
+411,F,31,6 ft 7 in (2.01 m),230 lb (104 kg),1993-06-17,Iowa State
+412,F,23,6 ft 4 in (1.93 m),226 lb (103 kg),1993-06-05,Baylor
+413,G/F,81,6 ft 5 in (1.96 m),206 lb (93 kg),1997-08-04,Yale
+414,G,6,6 ft 3 in (1.91 m),209 lb (95 kg),1997-09-24,Arkansas-Little Rock
+415,G,0,6 ft 2 in (1.88 m),190 lb (86 kg),1994-09-16,Gonzaga
+416,G,3,6 ft 0 in (1.83 m),190 lb (86 kg),1997-10-27,Hofstra
+417,F,10,7 ft 0 in (2.13 m),249 lb (113 kg),1997-11-17,NaN
+418,G,12,6 ft 1 in (1.85 m),187 lb (85 kg),1997-06-17,Boston College
+419,F,32,6 ft 9 in (2.06 m),240 lb (109 kg),1997-07-02,Washington
+420,G,30,6 ft 3 in (1.91 m),185 lb (84 kg),1988-03-14,Davidson
+421,F,23,6 ft 6 in (1.98 m),230 lb (104 kg),1990-03-04,Michigan State
+422,G/F,1,6 ft 5 in (1.96 m),210 lb (95 kg),1992-10-21,Louisville
+423,F,5,6 ft 9 in (2.06 m),222 lb (101 kg),1996-02-06,UCLA
+424,G,15,6 ft 4 in (1.93 m),228 lb (103 kg),1994-06-14,Kentucky
+425,F,7,6 ft 6 in (1.98 m),255 lb (116 kg),1996-11-04,Villanova
+426,G,3,6 ft 4 in (1.93 m),194 lb (88 kg),1999-06-19,Michigan
+427,G,25,6 ft 2 in (1.88 m),185 lb (84 kg),1993-02-05,Stanford
+428,F,6,6 ft 10 in (2.08 m),215 lb (98 kg),2000-08-18,NaN
+429,G,11,6 ft 6 in (1.98 m),215 lb (98 kg),1990-02-08,Washington State
+430,F,95,6 ft 6 in (1.98 m),209 lb (95 kg),1993-04-10,Marquette
+431,F,22,6 ft 7 in (2.01 m),197 lb (89 kg),1995-02-23,Kansas
+432,G,21,6 ft 1 in (1.85 m),180 lb (82 kg),1988-07-12,Arkansas
+433,G/F,7,6 ft 7 in (2.01 m),210 lb (95 kg),1997-06-17,Minnesota
+434,F,13,6 ft 8 in (2.03 m),220 lb (100 kg),1990-05-02,Fresno State
+435,F/C,4,6 ft 8 in (2.03 m),227 lb (103 kg),1990-06-21,Alabama
+436,F/C,5,6 ft 7 in (2.01 m),240 lb (109 kg),1994-01-26,Louisville
+437,G,1,6 ft 3 in (1.91 m),208 lb (94 kg),1990-04-16,Boston College
+438,F/C,25,6 ft 9 in (2.06 m),250 lb (113 kg),1997-08-14,Florida State
+439,F,2,6 ft 7 in (2.01 m),225 lb (102 kg),1991-06-29,San Diego State
+440,G/F,14,6 ft 5 in (1.96 m),215 lb (98 kg),1996-10-18,Florida State
+441,G,19,6 ft 4 in (1.93 m),205 lb (93 kg),1991-07-29,Kansas State
+442,F,31,6 ft 8 in (2.03 m),218 lb (99 kg),1989-09-02,Kansas
+443,F,15,6 ft 8 in (2.03 m),230 lb (104 kg),1995-05-04,Baylor
+444,F,54,6 ft 8 in (2.03 m),235 lb (107 kg),1989-03-14,Kentucky
+445,G,20,6 ft 4 in (1.93 m),190 lb (86 kg),1997-03-13,Wichita State
+446,G,23,6 ft 1 in (1.85 m),175 lb (79 kg),1986-10-27,NaN
+447,C,40,7 ft 0 in (2.13 m),240 lb (109 kg),1997-03-18,NaN
+448,F,37,6 ft 10 in (2.08 m),200 lb (91 kg),1997-11-20,Dayton
+449,G,11,6 ft 2 in (1.88 m),180 lb (82 kg),1990-11-26,Texas
+450,F,12,6 ft 7 in (2.01 m),240 lb (109 kg),1996-10-08,NaN
+451,G,1,6 ft 5 in (1.96 m),205 lb (93 kg),1993-02-18,Georgia
+452,G,4,6 ft 5 in (1.96 m),186 lb (84 kg),1994-02-28,Texas A&M
+453,G,28,6 ft 2 in (1.88 m),179 lb (81 kg),1993-03-23,Duke
+454,F/C,3,6 ft 10 in (2.08 m),253 lb (115 kg),1993-03-11,Kentucky
+455,F,10,6 ft 7 in (2.01 m),237 lb (108 kg),1985-07-10,Boston College
+456,G/F,14,6 ft 6 in (1.98 m),215 lb (98 kg),1987-06-22,North Carolina
+457,G,5,6 ft 4 in (1.93 m),235 lb (107 kg),2000-11-25,Iowa State
+458,C,39,6 ft 11 in (2.11 m),265 lb (120 kg),1985-12-08,NaN
+459,F,23,6 ft 8 in (2.03 m),250 lb (113 kg),1984-12-30,NaN
+460,F,0,6 ft 9 in (2.06 m),220 lb (100 kg),1995-07-24,Utah
+461,C,7,7 ft 0 in (2.13 m),270 lb (122 kg),1988-01-19,Nevada
+462,F,88,6 ft 8 in (2.03 m),245 lb (111 kg),1989-09-02,Kansas
+463,G,9,6 ft 1 in (1.85 m),186 lb (84 kg),1986-02-22,Kentucky
+464,G,18,6 ft 3 in (1.91 m),215 lb (98 kg),1991-12-10,Syracuse
+465,C,22,6 ft 11 in (2.11 m),250 lb (113 kg),1998-07-23,Arizona
+466,F/C,46,6 ft 10 in (2.08 m),260 lb (118 kg),1986-12-09,Washington State
+467,G,1,6 ft 5 in (1.96 m),206 lb (93 kg),1996-10-30,Kentucky
+468,F,25,6 ft 6 in (1.98 m),209 lb (95 kg),1996-08-30,Villanova
+469,G,4,6 ft 1 in (1.85 m),200 lb (91 kg),1995-09-14,West Virginia
+470,F/C,14,6 ft 8 in (2.03 m),219 lb (99 kg),1996-09-13,Kansas
+471,G,12,5 ft 11 in (1.80 m),175 lb (79 kg),1997-09-14,Auburn
+472,G/F,10,6 ft 5 in (1.96 m),195 lb (88 kg),1997-07-08,Virginia
+473,F,23,6 ft 8 in (2.03 m),210 lb (95 kg),1996-03-03,North Carolina
+474,F/C,8,7 ft 0 in (2.13 m),240 lb (109 kg),1993-04-04,Wisconsin
+475,G,0,6 ft 4 in (1.93 m),185 lb (84 kg),2000-06-13,NaN
+476,G/F,2,6 ft 3 in (1.91 m),190 lb (86 kg),1997-10-23,NaN
+477,G/F,3,6 ft 7 in (2.01 m),203 lb (92 kg),1995-12-09,Kansas
+478,F,41,6 ft 10 in (2.08 m),205 lb (93 kg),1995-06-30,Texas Tech
+479,G,11,6 ft 3 in (1.91 m),190 lb (86 kg),1990-10-21,NaN
+480,F,20,6 ft 10 in (2.08 m),225 lb (102 kg),1994-04-08,NaN
+481,F,35,6 ft 11 in (2.11 m),235 lb (107 kg),1999-03-14,Duke
+482,F,40,6 ft 8 in (2.03 m),225 lb (102 kg),1992-05-30,North Carolina
+483,G,26,6 ft 5 in (1.96 m),201 lb (91 kg),1989-07-01,Old Dominion
+484,F,88,6 ft 10 in (2.08 m),234 lb (106 kg),1988-05-09,NaN
+485,G,8,6 ft 6 in (1.98 m),220 lb (100 kg),1992-08-18,NaN
+486,G,3,6 ft 0 in (1.83 m),178 lb (81 kg),1993-05-09,Indiana
+487,G,5,6 ft 3 in (1.91 m),175 lb (79 kg),1997-12-20,Kentucky
+488,F/C,20,6 ft 11 in (2.11 m),240 lb (109 kg),1998-04-22,Duke
+489,G,7,6 ft 1 in (1.85 m),167 lb (76 kg),1997-08-11,Virginia
+490,G,24,6 ft 4 in (1.93 m),220 lb (100 kg),1992-12-17,Oklahoma
+491,F,22,6 ft 10 in (2.08 m),235 lb (107 kg),1993-10-15,Bowling Green
+492,G/F,10,6 ft 7 in (2.01 m),190 lb (86 kg),1997-01-24,Wyoming
+493,G/F,19,6 ft 5 in (1.96 m),230 lb (104 kg),1997-08-30,Tulsa
+494,G,9,6 ft 3 in (1.91 m),200 lb (91 kg),1991-08-20,Texas
+495,C,25,7 ft 1 in (2.16 m),250 lb (113 kg),1993-06-16,Maryland
+496,F/C,42,6 ft 10 in (2.08 m),233 lb (106 kg),1995-01-05,NaN
+497,F,33,6 ft 8 in (2.03 m),245 lb (111 kg),1995-05-15,Duke
