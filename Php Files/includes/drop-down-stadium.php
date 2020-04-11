@@ -34,7 +34,7 @@
     $sql = "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName   
             FROM `date` AS d LEFT JOIN game AS g ON (g.DateId = d.Id) 
             WHERE (g.ArenaName LIKE '$stadiumName%')\n"
-            . "UNION ALL\n" // "." means to add this line
+            . "UNION\n" // "." means to add this line
             . "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName
             FROM `date` AS d RIGHT JOIN game AS g ON (g.DateId = d.Id) 
             WHERE (g.ArenaName LIKE '$stadiumName%' AND d.Id is null)\n";
