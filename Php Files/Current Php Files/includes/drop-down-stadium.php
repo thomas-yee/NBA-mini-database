@@ -20,8 +20,8 @@
     // Column Links, when clicked, calls the same page but changes the
     //variable ?sort based on the column the user wants to sort by 
     //order variable set based on whether the column is sorted -->
-    echo "<tr><th><a href='game.php?sort=season&stadiumName=$stadiumName&order=$asc_or_desc'>Season</a></th>
-    <tr><th><a href='game.php?sort=gameDate&stadiumName=$stadiumName&order=$asc_or_desc'>Game Date</a></th>
+    echo "<tr><th><a href='game.php?sort=season&stadiumName=$stadiumName&order==$asc_or_desc'>Season</a></th>
+    <th><a href='game.php?sort=gameDate&stadiumName=$stadiumName&order=$asc_or_desc'>Game Date</a></th>
     <th><a href='game.php?sort=startTime&stadiumName=$stadiumName&order=$asc_or_desc'>Start Time</a></th>
     <th><a href='game.php?sort=visitorTeam&stadiumName=$stadiumName&order=$asc_or_desc'>Visitor Team</a></th>
     <th><a href='game.php?sort=visitorPoints&stadiumName=$stadiumName&order=$asc_or_desc'>Visitor Points</a></th>
@@ -29,6 +29,9 @@
     <th><a href='game.php?sort=homePoints&stadiumName=$stadiumName&order=$asc_or_desc'>Home Points</a></th>
     <th><a href='game.php?sort=attendance&stadiumName=$stadiumName&order=$asc_or_desc'>Attendance </a></th>
     <th><a href='game.php?sort=arenaName&stadiumName=$stadiumName&order=$asc_or_desc'>Arena Name</a></th></tr>";
+
+    
+
 
     //Original SQL query to show all stats
     $sql = "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName   
