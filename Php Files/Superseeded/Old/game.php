@@ -20,6 +20,7 @@
                 }
                 $("select").change(function() {
                     var stadiumName = $(this).val();
+                    
                     //sets local storage to the selection made
                     localStorage.setItem("Arena", $(this).val())
                     $.ajax({
@@ -42,19 +43,10 @@
                 <div class="row">
                     <ul class="main-nav"> <!--ul means unordered list-->
                         <li><a href="nba.php">Home</a></li> <!--Links to home page-->
-                        <li><a href="inner_join_on.php">Height Search<br>(Inner Join)</a></li> <!-- Demonstrates Inner Join -->
-                        <li><a href="left_outer_join.php">Team Schedule Search<br>(Left Outer Join)</a></li> <!-- Demonstrates Left Outer Join -->
-                        <li><a href="union_all.php">Team Shooting Search<br>(Union All)</a></li> <!-- Demonstrates Union All -->
-                        <li><a href="team.php">Teams<br>(Select)</a></li> <!-- Demonstrates Select -->
-                    </ul>
-                </div>
-                <div class="row">
-                    <ul class="main-nav"> <!--ul means unordered list-->
-                        <li><a href="game.php">Games<br>(Full Outer Join)</a></li> <!-- Demonstrates Full Outer Join (via Left & Right Join) -->
-                        <li><a href="game_intersect.php">Home Dominators<br>(Intersect)</a></li> <!-- Demonstrates Intersect-->
-                        <li><a href="miami_heat_no_guards.php">Miami Heat<br>(Minus)</a></li> <!-- Demonstrates Minus (i.e. Right Outer Join) -->
-                        <li><a href="player.php">Player Stats<br>(Right Join & Natural Join)</a></li> <!-- Demonstrates Right Join & Natural Join-->
-                        <li><a href="playerInformation.php">Player Information<br>(Right Outer Join)</a></li> <!-- Demonstrates Right Outer Join -->
+                        <li><a href="team.php">Teams</a></li>
+                        <li><a href="game.php">Games</a></li>
+                        <li><a href="player.php">Player Stats</a></li> <!--Links to players page-->
+                        <li><a href="playerInformation.php">Player Information</a></li> <!--Links to players information page -->
                     </ul>
                 </div>
                 <div class = "header-row">
@@ -127,7 +119,7 @@
                 $sql = "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName   
                         FROM `date` AS d LEFT JOIN game AS g ON (g.DateId = d.Id) 
                         WHERE (g.ArenaName LIKE '$stadiumName%')\n"
-                        . "UNION ALL\n" // "." means to add this line
+                        . "UNION\n" // "." means to add this line
                         . "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName
                         FROM `date` AS d RIGHT JOIN game AS g ON (g.DateId = d.Id) 
                         WHERE (g.ArenaName LIKE '$stadiumName%' AND d.Id is null)\n";

@@ -3,13 +3,8 @@ body {
     color: #e6e6e6;
     border-color: #e6e6e6;
 }
-
-
 /*---------- HEADINGS ---------------*/
-
-
 /*Used to modify the header (NBA Mini-database)*/
-
 h1 {
     font-weight: 300;
     text-transform: uppercase;
@@ -19,23 +14,16 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
-
-
 /*---------- Header -----------------*/
 
-
 /*Used to modify the nba logo*/
-
 .logo {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 0px;
 }
-
-
 /*Used to modify the navigation bar*/
-
 .main-nav {
     background-color: rgb(43, 40, 40);
     overflow: hidden;
@@ -46,44 +34,31 @@ h1 {
     font-family: 'Roboto Condensed';
     margin-top: 0;
 }
-
-
 /*Style the links in the navigation bar */
-
-.main-nav a {
+.main-nav a{
     text-decoration: none;
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
 }
-
-
 /* When the user hovers over a link */
-
 .main-nav a:hover {
     background-color: rgba(41, 32, 32, 0.068);
-    color: rgb(94, 91, 91);
+    color:rgb(94, 91, 91);
 }
 
 .main-nav li {
-    display: inline-block;
-    /* Become side by side instead of a list */
+    display: inline-block; /* Become side by side instead of a list */
 }
-
-
 /*---------- Section ---------------*/
 
-
 /*-- Player Information section --*/
-
 section.display-games-stadium {
     margin-bottom: 20px;
 }
-
-section.choose-data li {
-    display: inline-block;
-    /*Becomes side by side */
+section.choose-data li{
+    display: inline-block; /*Becomes side by side */
     font-size: 110%;
     margin-right: 20px;
 }
@@ -96,64 +71,45 @@ section.choose-data a {
     padding: 14px 4px;
 }
 
-
 /* When the user hovers over a link */
-
 section.choose-data a:hover {
     background-color: rgba(41, 32, 32, 0.068);
-    color: rgb(94, 91, 91);
+    color:rgb(94, 91, 91);
 }
 
-
 /*---------- Row -------------------*/
-
 .row {
     max-width: 1440px;
     margin: 0 auto;
 }
-
 .header-row {
     margin-bottom: 80px;
 }
 
-
 /*---------- Table -----------------*/
-
 table {
     border-collapse: collapse;
     width: auto;
 }
-
-
 /*Changes the background color of the column headers*/
-
 th {
-    background-color: #54585d;
+	background-color: #54585d;
     border: 1px solid #54585d;
 }
-
-
 /*Changes the color of the header when the mouse hovers over it*/
-
 th:hover {
-    background-color: #64686e;
+	background-color: #64686e;
 }
-
-
 /*Changes the display of the column links*/
-
 th a {
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-
+	display: block;
+	text-decoration:none;
+	padding: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+} 
 /*Changes the cells of the table */
-
 td {
     padding: 10px;
     color: #f2f2f2;
