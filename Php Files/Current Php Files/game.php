@@ -20,6 +20,7 @@
                 }
                 $("select").change(function() {
                     var stadiumName = $(this).val();
+                    
                     //sets local storage to the selection made
                     localStorage.setItem("Arena", $(this).val())
                     $.ajax({
@@ -44,8 +45,6 @@
                         <li><a href="nba.php">Home</a></li> <!--Links to home page-->
                         <li><a href="team.php">Teams</a></li>
                         <li><a href="game.php">Games</a></li>
-                        <li><a href="game_intersect.php">Home Dominators</a></li> <!--Links to game_intersect page-->
-                        <li><a href="miami_heat_no_guards.php">Player Stats</a></li> <!--Links to miami heat no guards page-->
                         <li><a href="player.php">Player Stats</a></li> <!--Links to players page-->
                         <li><a href="playerInformation.php">Player Information</a></li> <!--Links to players information page -->
                     </ul>
@@ -120,7 +119,7 @@
                 $sql = "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName   
                         FROM `date` AS d LEFT JOIN game AS g ON (g.DateId = d.Id) 
                         WHERE (g.ArenaName LIKE '$stadiumName%')\n"
-                        . "UNION ALL\n" // "." means to add this line
+                        . "UNION\n" // "." means to add this line
                         . "SELECT d.Season, g.GameDate, g.GameStartET, g.VisitorTeamName, g.VisitorPoints, g.HomeTeamName, g.HomePoints, g.Attendance, g.ArenaName
                         FROM `date` AS d RIGHT JOIN game AS g ON (g.DateId = d.Id) 
                         WHERE (g.ArenaName LIKE '$stadiumName%' AND d.Id is null)\n";
